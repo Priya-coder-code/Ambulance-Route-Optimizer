@@ -68,6 +68,10 @@ def status():
 
 @bp.get("/meta")
 def meta():
+    if cfg().SERVERLESS:
+        rt().ensure_loaded()
+    if not rt().db_ok:
+        return err(rt().error or "database not connected", 503)
     with session_scope() as s:
         types = [t.to_dict() for t in s.scalars(select(EmergencyType).order_by(EmergencyType.sort))]
     return jsonify({

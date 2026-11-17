@@ -7,7 +7,9 @@ Vercel       : (SERVERLESS) the pre-built graph file is loaded on the first requ
 from __future__ import annotations
 
 import gc
+import os
 import threading
+import time
 import traceback
 
 from flask import Flask, jsonify, send_from_directory
@@ -28,19 +30,54 @@ class Runtime:
         self.log: list[str] = []
         self.error: str | None = None
         self.net: RoadNetwork | None = None
+        self.db_ok = False
         self._load_lock = threading.Lock()
+        self._last_try = 0.0
 
     def say(self, msg: str):
         print(msg, flush=True)
         self.log.append(msg)
 
     def ensure_loaded(self):
-        """Serverless: load the graph on first use (each cold start)."""
-        if self.net is not None or self.status == "error":
+        """Serverless: connect to the database and load the graph on first use.
+        If something is missing (database not connected, not seeded, no graph file),
+        the error is shown on the status page and retried every 15 s - so fixing the
+        database (e.g. running manage.py seed) works without redeploying."""
+        if self.net is not None:
             return
         with self._load_lock:
-            if self.net is None and self.status != "error":
-                prepare(self, self.cfg)
+            if self.net is not None or time.time() - self._last_try < 15:
+                return
+            self._last_try = time.time()
+            self.status, self.error, self.log = "loading", None, []
+            if not self.db_ok and not init_database(self, self.cfg):
+                self.status = "error"
+                return
+            prepare(self, self.cfg)
+
+
+def explain_db_error(cfg, e: Exception) -> str:
+    if cfg.SERVERLESS and not (os.getenv("DATABASE_URL") or os.getenv("POSTGRES_URL")):
+        return ("DATABASE_URL is not set. In Vercel open the backend project -> Storage -> connect a Neon "
+                "database, then Deployments -> Redeploy (new environment variables only reach new deployments).")
+    first = str(e).strip().splitlines()[0] if str(e).strip() else e.__class__.__name__
+    host = cfg.DATABASE_URL.split("@")[-1].split("/")[0]
+    return f"Cannot connect to the database at {host}: {first}"
+
+
+def init_database(runtime: Runtime, cfg) -> bool:
+    """Create the tables and emergency types. Returns False (with a readable error) on failure."""
+    try:
+        init_engine(cfg.DATABASE_URL, serverless=cfg.SERVERLESS)
+        with session_scope() as s:
+            seed_emergency_types(s)
+        runtime.db_ok = True
+        return True
+    except Exception as e:
+        traceback.print_exc()
+        runtime.error = explain_db_error(cfg, e)
+        runtime.say(f"ERROR: {runtime.error}")
+        return False
 
 
 def sync_network(net: RoadNetwork):
@@ -97,11 +134,16 @@ def create_app(cfg=Config, net: RoadNetwork | None = None, hospitals: list[dict]
     app = Flask(__name__, static_folder=None)
     app.config["ARO"] = cfg
     app.json.sort_keys = False
-    init_engine(cfg.DATABASE_URL, serverless=cfg.SERVERLESS)
-    with session_scope() as s:
-        seed_emergency_types(s)
-
     runtime = Runtime(cfg)
+    if cfg.SERVERLESS:
+        # never crash on import (that gives Vercel's blank "500 FUNCTION_INVOCATION_FAILED");
+        # problems are reported by /api/status instead
+        init_database(runtime, cfg)
+    else:
+        init_engine(cfg.DATABASE_URL, serverless=False)
+        with session_scope() as s:
+            seed_emergency_types(s)
+        runtime.db_ok = True
     app.extensions["aro_runtime"] = runtime
     app.register_blueprint(bp)
 
@@ -120,9 +162,13 @@ def create_app(cfg=Config, net: RoadNetwork | None = None, hospitals: list[dict]
         if path.startswith("api/"):
             return jsonify({"error": "not found"}), 404
         if not (dist / "index.html").exists():
-            return ("<h2>Backend is running.</h2><p>Start the React app with <code>npm run dev</code> in "
-                    "<code>frontend/</code> and open http://localhost:5173 - or run <code>npm run build</code> "
-                    "and reload this page.</p>")
+            if cfg.SERVERLESS:
+                runtime.ensure_loaded()
+            msg = (f"<p style='color:#c8102e'><b>Problem:</b> {runtime.error}</p>" if runtime.error else
+                   f"<p>Status: <b>{runtime.status}</b></p>")
+            return ("<h2>Ambulance Route Optimizer - backend</h2>" + msg +
+                    "<p>API status: <a href='/api/status'>/api/status</a>. Open the app through the frontend "
+                    "(Vercel frontend project, or <code>npm run dev</code> locally).</p>")
         target = dist / path
         if path != "index.html" and target.is_file():
             return send_from_directory(dist, path)

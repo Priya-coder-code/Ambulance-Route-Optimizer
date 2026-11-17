@@ -7,13 +7,14 @@ emergencies       every reported case (patient, location, type, severity)
 dispatches        the optimised decision for a case + both routes + how it was computed
 road_conditions   road closures and congestion zones entered by the operator
 settings          small key/value settings shared by all server instances (traffic level)
+osm_cache         the downloaded OpenStreetMap data (compressed), so it is fetched only once
 """
 
 from __future__ import annotations
 
 from datetime import datetime, timezone
 
-from sqlalchemy import JSON, Boolean, DateTime, Float, ForeignKey, Integer, String, Text
+from sqlalchemy import JSON, Boolean, DateTime, Float, ForeignKey, Integer, LargeBinary, String, Text
 from sqlalchemy.orm import Mapped, mapped_column, relationship
 
 from .db import Base
@@ -172,3 +173,11 @@ class Setting(Base):
 
     key: Mapped[str] = mapped_column(String(40), primary_key=True)
     value: Mapped[str] = mapped_column(String(200))
+
+
+class OsmCache(Base):
+    __tablename__ = "osm_cache"
+
+    key: Mapped[str] = mapped_column(String(120), primary_key=True)
+    data: Mapped[bytes] = mapped_column(LargeBinary)          # gzip-compressed JSON
+    created_at: Mapped[datetime] = mapped_column(DateTime(timezone=True), default=now)

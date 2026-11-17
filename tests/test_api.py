@@ -2,21 +2,21 @@
 
 import pytest
 
-from conftest import HOSPITALS, db_available
+from conftest import HOSPITALS, db_available, sample_osm
 
 pytestmark = pytest.mark.skipif(not db_available(), reason="PostgreSQL test database not reachable")
 
 
 @pytest.fixture(scope="module")
-def client(cfg, net):
+def client(cfg):
     from aro import geocoding
-    from aro.app import create_app
     from aro.db import drop_all, init_engine
+    from aro.server import create_app
 
     init_engine(cfg.DATABASE_URL)
     drop_all()
     geocoding.reverse = lambda c, lat, lon: "Test street"
-    app = create_app(cfg, net=net, hospitals=HOSPITALS, background=False)
+    app = create_app(cfg, osm=sample_osm())
     return app.test_client()
 
 

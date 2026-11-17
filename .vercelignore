@@ -1,0 +1,11 @@
+# Only the Python code and the built web app (public/) are needed on Vercel
+frontend/
+tests/
+sample_data/
+local.db
+.env
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/

@@ -2,6 +2,8 @@ __pycache__/
 *.pyc
 .pytest_cache/
 .venv/
-backend/.env
-backend/data/
+venv/
+.env
+local.db
 frontend/node_modules/
+.vercel/

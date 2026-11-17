@@ -73,21 +73,27 @@ export default function App() {
 
   /* ---------------------------------------------------------- loading */
   useEffect(() => {
+    // keep asking until the server is ready (first start downloads the map; errors are retried)
     let stop = false;
     let timer;
     const poll = async () => {
+      let next = 1500;
       try {
         const s = await api.status();
         if (stop) return;
         setStatus(s);
-        if (s.status === 'ready' || s.status === 'error') return;
+        if (s.status === 'ready') {
+          api.meta().then(setMeta).catch(() => {});
+          return;
+        }
+        if (s.status === 'error') next = 8000;
       } catch {
-        if (!stop) setStatus((p) => p || { status: 'offline', log: [] });
+        if (!stop) setStatus((p) => (p?.status === 'error' ? p : { status: 'offline', log: [] }));
+        next = 4000;
       }
-      timer = setTimeout(poll, 1500);
+      timer = setTimeout(poll, next);
     };
     poll();
-    api.meta().then(setMeta).catch(() => {});
     return () => { stop = true; clearTimeout(timer); };
   }, []);
 
@@ -209,6 +215,9 @@ export default function App() {
           {net && <span>{fmtInt(net.intersections)} intersections</span>}
           {ready && <span><b>{free}</b>/{ambulances.length} ambulances free</span>}
           {stats && <span><b>{stats.active_cases}</b> active cases</span>}
+          {status?.db_mode === 'sqlite-temporary' && (
+            <span className="pill wait" title="No DATABASE_URL: data is kept only until the server restarts. Connect a Neon database in Vercel → Storage.">Demo mode</span>
+          )}
           <span className={`pill ${ready ? 'ok' : status?.status === 'error' ? 'bad' : 'wait'}`}>
             {ready ? 'Road network ready' : status?.status === 'error' ? 'Error' : 'Loading…'}
           </span>
@@ -262,10 +271,11 @@ export default function App() {
             <div className="busy">
               <div className="spinner" />
               <div className="load-log">
-                <b>{status?.status === 'error' ? 'Could not load the road network' :
-                  status?.status === 'offline' ? 'Waiting for the backend (python run.py)…' : 'Preparing the road network…'}</b>
+                <b>{status?.status === 'error' ? 'Could not prepare the road network' :
+                  status?.status === 'offline' ? 'Starting the server…' : 'Preparing the road network…'}</b>
+                {status?.status !== 'error' && <div>The very first start downloads the map from OpenStreetMap (about 30 seconds).</div>}
                 {(status?.log || []).slice(-6).map((l, i) => <div key={i}>{l}</div>)}
-                {status?.error && <div className="err">{status.error}</div>}
+                {status?.error && <div className="err">{status.error}<br />Retrying automatically…</div>}
               </div>
             </div>
           )}

@@ -1,6 +1,6 @@
 """The real road network as a weighted directed graph.
 
-    OpenStreetMap  --OSMnx-->  MultiDiGraph  -->  RoadNetwork (compact lists)
+    OpenStreetMap (Overpass)  -->  raw segments  -->  simplified graph of intersections
 
   vertex = road intersection (OSMnx-simplified graph)
   edge   = road between two intersections (one per direction it can be driven)
@@ -8,18 +8,15 @@
            = length / speed limit  x  traffic-profile factor  x  congestion factor
            (closed roads get weight = infinity)
 
-The finished graph is pickled to data/cache, so OpenStreetMap is downloaded once.
+The downloaded OpenStreetMap data is stored in the database (osm_cache table),
+so it is downloaded only once - even on Vercel, where files do not persist.
 """
 
 from __future__ import annotations
 
-import gzip
-import hashlib
 import math
-import pickle
+import re
 import threading
-import time
-from pathlib import Path
 
 from .geo import GridIndex, haversine, square_bbox
 
@@ -40,13 +37,31 @@ TRAFFIC_PROFILES = {
     "peak": {"label": "Peak hour", "major": 2.2, "minor": 1.4},
 }
 
-CACHE_VERSION = "v3"
 
 
-def _first(value, default=""):
-    if isinstance(value, list):
-        value = value[0] if value else default
-    return default if value is None or (isinstance(value, float) and math.isnan(value)) else value
+def parse_maxspeed(value) -> float | None:
+    """'50', '30 mph', 'IN:urban' -> km/h (None if unusable)."""
+    if not value:
+        return None
+    m = re.search(r"(\d+(?:\.\d+)?)", str(value))
+    if not m:
+        return None
+    v = float(m.group(1)) * (1.609344 if "mph" in str(value) else 1)
+    return v if 5 <= v <= 150 else None
+
+
+def oneway_direction(tags: dict) -> int:
+    """+1 forward only, -1 backward only, 0 both directions."""
+    ow = (tags.get("oneway") or "").lower()
+    if ow in ("yes", "true", "1"):
+        return 1
+    if ow in ("-1", "reverse"):
+        return -1
+    if ow == "no":
+        return 0
+    if tags.get("highway") in ("motorway", "motorway_link") or tags.get("junction") in ("roundabout", "circular"):
+        return 1
+    return 0
 
 
 class RoadNetwork:
@@ -115,95 +130,150 @@ class RoadNetwork:
         return eid
 
     @classmethod
-    def from_osmnx(cls, G, name: str) -> "RoadNetwork":
-        """Convert an OSMnx graph (with travel_time on every edge) into compact lists."""
-        net = cls(name)
-        idx = {}
-        for node, data in G.nodes(data=True):
-            idx[node] = net.add_node(float(data["y"]), float(data["x"]))
-        for u, v, data in G.edges(data=True):
-            ui, vi = idx[u], idx[v]
-            hw = str(_first(data.get("highway"), "road"))
-            nm = _first(data.get("name")) or _first(data.get("ref")) or hw.replace("_", " ")
-            geom = ()
-            g = data.get("geometry")
-            if g is not None:
-                pts = [(round(y, 6), round(x, 6)) for x, y in g.coords]
-                # make sure the shape runs from u to v
-                if haversine(*pts[0], net.lat[ui], net.lon[ui]) > haversine(*pts[-1], net.lat[ui], net.lon[ui]):
-                    pts.reverse()
-                geom = tuple(pts[1:-1])
-            length = float(data.get("length", 0.0)) or haversine(net.lat[ui], net.lon[ui], net.lat[vi], net.lon[vi])
-            ttime = float(data.get("travel_time", 0.0)) or length / (25 / 3.6)
-            net.add_edge(ui, vi, length, ttime, str(nm), hw in MAJOR_ROADS, geom)
-        return net
+    def from_osm(cls, osm: dict, name: str) -> "RoadNetwork":
+        """OSM data (see osm.py) -> graph of intersections.
 
-    # ------------------------------------------------------------- loading
-    @staticmethod
-    def build_osmnx_graph(cfg, log=print):
-        """Download (or read the .osm file) and prepare the OSMnx graph."""
-        import osmnx as ox
+        1. every pair of consecutive points on a road = one segment (two if the road is two-way)
+        2. simplification: chains of points that are not intersections (exactly two
+           neighbours, traffic just passes through) become ONE edge that keeps the
+           road's shape - like OSMnx's simplify_graph(). Distances do not change.
+        3. keep the largest strongly connected component (Kosaraju), so every
+           intersection can reach every other one."""
+        nodes = {int(k): v for k, v in osm["nodes"].items()}
+        idx: dict[int, int] = {}
+        lat, lon = [], []
+        eu, ev, elen, etime, eway = [], [], [], [], []
+        way_name, way_major = [], []
+        for wi, (_wid, tags, refs) in enumerate(osm["ways"]):
+            hw = tags.get("highway", "road")
+            way_name.append(tags.get("name:en") or tags.get("name") or tags.get("ref") or hw.replace("_", " "))
+            way_major.append(hw in MAJOR_ROADS)
+            refs = [r for r in refs if r in nodes]
+            if len(refs) < 2:
+                continue
+            speed = (parse_maxspeed(tags.get("maxspeed")) or INDIA_HWY_SPEEDS.get(hw, 25)) / 3.6
+            direction = oneway_direction(tags)
+            ids = []
+            for r in refs:
+                i = idx.get(r)
+                if i is None:
+                    i = idx[r] = len(lat)
+                    lat.append(nodes[r][0])
+                    lon.append(nodes[r][1])
+                ids.append(i)
+            for u, v in zip(ids, ids[1:]):
+                if u == v:
+                    continue
+                length = haversine(lat[u], lon[u], lat[v], lon[v])
+                if direction >= 0:
+                    eu.append(u); ev.append(v); elen.append(length); etime.append(length / speed); eway.append(wi)
+                if direction <= 0:
+                    eu.append(v); ev.append(u); elen.append(length); etime.append(length / speed); eway.append(wi)
+        n, m = len(lat), len(eu)
+        if not m:
+            raise RuntimeError("No drivable roads in this area")
+        out_e = [[] for _ in range(n)]
+        in_e = [[] for _ in range(n)]
+        for i in range(m):
+            out_e[eu[i]].append(i)
+            in_e[ev[i]].append(i)
 
-        ox.settings.use_cache = True
-        ox.settings.cache_folder = str(Path(cfg.CACHE_DIR) / "osmnx_http")
-        ox.settings.requests_timeout = 300
-        ox.settings.max_query_area_size = 100 * 1000 * 1000  # split big areas into ~10x10 km Overpass queries
-        ox.settings.log_console = False
-        if cfg.ROAD_GRAPH_OSM_FILE:
-            log(f"Reading road network from {cfg.ROAD_GRAPH_OSM_FILE} ...")
-            G = ox.graph_from_xml(cfg.ROAD_GRAPH_OSM_FILE, simplify=True, retain_all=False)
-        else:
-            s, w, n, e = square_bbox(*cfg.AREA_CENTER, cfg.AREA_SIZE_KM)
-            log(f"Downloading {cfg.AREA_SIZE_KM:g} x {cfg.AREA_SIZE_KM:g} km road network of {cfg.AREA_NAME} "
-                f"from OpenStreetMap (OSMnx) ... first time only, this can take several minutes")
-            G = ox.graph_from_bbox((w, s, e, n), network_type="drive", simplify=True)
-        log(f"  OSMnx graph: {len(G):,} nodes, {G.number_of_edges():,} edges - adding speeds and travel times")
-        G = ox.add_edge_speeds(G, hwy_speeds=INDIA_HWY_SPEEDS, fallback=25)
-        G = ox.add_edge_travel_times(G)
-        G = ox.truncate.largest_component(G, strongly=True)
-        return G
+        def interior(x: int) -> bool:
+            oe, ie = out_e[x], in_e[x]
+            if len(oe) > 2 or len(ie) > 2:
+                return False
+            outs = {ev[i] for i in oe}
+            ins = {eu[i] for i in ie}
+            nb = outs | ins
+            if len(nb) != 2 or x in nb:
+                return False
+            if len(oe) == 2 and len(ie) == 2 and outs == ins:      # two-way road
+                return True
+            return len(oe) == 1 and len(ie) == 1 and outs != ins   # one-way road
 
-    def export(self, path) -> int:
-        """Write the finished graph as a compressed file to ship with a deployment."""
-        path = Path(path)
-        path.parent.mkdir(parents=True, exist_ok=True)
-        with gzip.open(path, "wb", compresslevel=6) as f:
-            pickle.dump(self, f, protocol=pickle.HIGHEST_PROTOCOL)
-        return path.stat().st_size
+        is_int = [interior(x) for x in range(n)]
+        g = cls(name)
+        new_id = {}
+        for x in range(n):
+            if not is_int[x]:
+                new_id[x] = g.add_node(lat[x], lon[x])
+        for u in new_id:
+            for e0 in out_e[u]:
+                length, tsec, geom = elen[e0], etime[e0], []
+                prev, cur, ok, steps = u, ev[e0], True, 0
+                while is_int[cur]:
+                    steps += 1
+                    if steps > n:
+                        ok = False
+                        break
+                    geom.append((round(lat[cur], 6), round(lon[cur], 6)))
+                    nxt = [k for k in out_e[cur] if ev[k] != prev]
+                    if not nxt:
+                        ok = False
+                        break
+                    k = nxt[0]
+                    length += elen[k]
+                    tsec += etime[k]
+                    prev, cur = cur, ev[k]
+                if ok:
+                    wi = eway[e0]
+                    g.add_edge(new_id[u], new_id[cur], length, tsec, way_name[wi], way_major[wi], tuple(geom))
+        g = g.largest_component()
+        g.raw_osm_nodes = n
+        return g
 
-    @classmethod
-    def load_file(cls, path) -> "RoadNetwork":
-        with gzip.open(path, "rb") as f:
-            return pickle.load(f)
+    def strongly_connected_components(self) -> list[list[int]]:
+        """Kosaraju's algorithm, iterative. O(V + E)."""
+        n = self.n
+        radj = [[] for _ in range(n)]
+        for eid in range(self.m):
+            radj[self.e_v[eid]].append(self.e_u[eid])
+        seen = [False] * n
+        order = []
+        for s0 in range(n):
+            if seen[s0]:
+                continue
+            seen[s0] = True
+            stack = [(s0, 0)]
+            while stack:
+                u, i = stack[-1]
+                if i < len(self.adj[u]):
+                    stack[-1] = (u, i + 1)
+                    v = self.adj[u][i][0]
+                    if not seen[v]:
+                        seen[v] = True
+                        stack.append((v, 0))
+                else:
+                    stack.pop()
+                    order.append(u)
+        comp = [-1] * n
+        comps = []
+        for s0 in reversed(order):
+            if comp[s0] != -1:
+                continue
+            comp[s0] = len(comps)
+            members, stack = [s0], [s0]
+            while stack:
+                u = stack.pop()
+                for v in radj[u]:
+                    if comp[v] == -1:
+                        comp[v] = comp[s0]
+                        members.append(v)
+                        stack.append(v)
+            comps.append(members)
+        return comps
 
-    @classmethod
-    def load(cls, cfg, log=print) -> "RoadNetwork":
-        if cfg.SERVERLESS:
-            # no OSMnx on the server: use the graph built on your computer (manage.py export-graph)
-            if not Path(cfg.ROAD_NETWORK_FILE).exists():
-                raise RuntimeError(f"Road graph file not found ({Path(cfg.ROAD_NETWORK_FILE).name}). Run "
-                                   "'python manage.py export-graph' locally and deploy backend/deploy/roadnet.pkl.gz")
-            t0 = time.time()
-            net = cls.load_file(cfg.ROAD_NETWORK_FILE)
-            log(f"Road network loaded from {Path(cfg.ROAD_NETWORK_FILE).name} in {time.time() - t0:.1f}s")
-            return net
-        src = cfg.ROAD_GRAPH_OSM_FILE or f"{cfg.AREA_CENTER}|{cfg.AREA_SIZE_KM}"
-        key = hashlib.sha1(f"{src}|{CACHE_VERSION}".encode()).hexdigest()[:14]
-        cache = Path(cfg.CACHE_DIR) / f"roadnet_{key}.pkl"
-        if cache.exists():
-            log(f"Loading road network from cache ({cache.name}) ...")
-            with open(cache, "rb") as f:
-                return pickle.load(f)
-        t0 = time.time()
-        G = cls.build_osmnx_graph(cfg, log)
-        net = cls.from_osmnx(G, cfg.AREA_NAME)
-        net.raw_osm_nodes = len(G)
-        del G
-        cache.parent.mkdir(parents=True, exist_ok=True)
-        with open(cache, "wb") as f:
-            pickle.dump(net, f, protocol=pickle.HIGHEST_PROTOCOL)
-        log(f"  road network ready: {net.n:,} intersections, {net.m:,} road edges ({time.time() - t0:.0f}s, cached)")
-        return net
+    def largest_component(self) -> "RoadNetwork":
+        keep = max(self.strongly_connected_components(), key=len)
+        new = {old: i for i, old in enumerate(keep)}
+        g = RoadNetwork(self.name)
+        for old in keep:
+            g.add_node(self.lat[old], self.lon[old])
+        for eid in range(self.m):
+            a, b = new.get(self.e_u[eid]), new.get(self.e_v[eid])
+            if a is not None and b is not None:
+                g.add_edge(a, b, self.e_len[eid], self.e_time[eid], self.e_name[eid], self.e_major[eid], self.e_geom[eid])
+        return g
 
     # ------------------------------------------------------------- weights
     def weights(self) -> list[float]:

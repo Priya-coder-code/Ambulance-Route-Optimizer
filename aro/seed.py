@@ -2,8 +2,9 @@
 
   * emergency_types : fixed list below (what each emergency needs)
   * hospitals       : REAL hospitals from OpenStreetMap (amenity=hospital) in the
-                      service area. OSM has no facility data, so facilities and
-                      free beds are SIMULATED (deterministic, editable in the UI).
+                      service area, downloaded together with the roads. OSM has no
+                      facility data, so facilities and free beds are SIMULATED
+                      (deterministic, editable in the UI).
   * ambulances      : SIMULATED fleet parked at hospitals and standby points on
                       real roads.
 """
@@ -15,7 +16,7 @@ import random
 
 from sqlalchemy import func, select
 
-from .geo import haversine, square_bbox
+from .geo import square_bbox
 from .models import Ambulance, EmergencyType, Hospital
 
 FACILITIES = {
@@ -108,48 +109,18 @@ def seed_emergency_types(session):
         session.add(et)
 
 
-def fetch_osm_hospitals(cfg, log=print) -> list[dict]:
-    """Real hospitals (amenity=hospital / healthcare=hospital) inside the service area."""
-    import osmnx as ox
-
-    s, w, n, e = square_bbox(*cfg.AREA_CENTER, cfg.AREA_SIZE_KM)
-    log("Fetching hospitals from OpenStreetMap ...")
-    gdf = ox.features_from_bbox((w, s, e, n), tags={"amenity": "hospital", "healthcare": "hospital"})
-    out, seen = [], set()
-    for (etype, eid), row in gdf.iterrows():
-        name = row.get("name:en") if isinstance(row.get("name:en"), str) else row.get("name")
-        if not isinstance(name, str) or not name.strip():
-            continue
-        pt = row.geometry.representative_point()
-        lat, lon = pt.y, pt.x
-        key = (name.strip().lower(), round(lat, 3), round(lon, 3))
-        if key in seen:
-            continue
-        seen.add(key)
-        addr = ", ".join(str(row.get(k)) for k in ("addr:housenumber", "addr:street", "addr:suburb", "addr:city")
-                         if isinstance(row.get(k), str))
-        phone = row.get("phone") if isinstance(row.get("phone"), str) else None
-        out.append({"name": name.strip()[:200], "lat": lat, "lon": lon, "osm_id": f"{etype}/{eid}",
-                    "address": addr or None, "phone": phone})
-    log(f"  {len(out)} named hospitals found")
-    return out
-
-
-def seed_hospitals(session, cfg, log=print, hospitals: list[dict] | None = None) -> int:
+def seed_hospitals(session, cfg, hospitals: list[dict], log=print) -> int:
+    """Store the OSM hospitals (only if the table is still empty)."""
     if session.scalar(select(func.count(Hospital.id))):
         return 0
     source = "osm"
-    if hospitals is None:
-        try:
-            hospitals = fetch_osm_hospitals(cfg, log)
-        except Exception as e:  # offline
-            log(f"  could not fetch hospitals from OpenStreetMap ({e}); using built-in fallback list")
-            hospitals = []
+    hospitals = [h for h in hospitals if h.get("kind", "hospital") == "hospital"]
     if not hospitals:
         source = "seed"
-        clat, clon = cfg.AREA_CENTER
+        s, w, n, e = square_bbox(*cfg.AREA_CENTER, cfg.AREA_SIZE_KM)
         hospitals = [{"name": nm, "lat": la, "lon": lo, "osm_id": None} for nm, la, lo in FALLBACK_DELHI_HOSPITALS
-                     if haversine(clat, clon, la, lo) < cfg.AREA_SIZE_KM * 800]
+                     if s <= la <= n and w <= lo <= e]
+        log(f"  no hospitals in the OpenStreetMap data - using {len(hospitals)} built-in Delhi hospitals")
     for h in hospitals:
         fac, beds = simulate_facilities(h["name"], h.get("osm_id") or h["name"], cfg.RANDOM_SEED)
         session.add(Hospital(name=h["name"], lat=h["lat"], lon=h["lon"], osm_id=h.get("osm_id"),
@@ -166,6 +137,8 @@ def seed_ambulances(session, net, cfg, log=print) -> int:
     rng = random.Random(cfg.RANDOM_SEED)
     hospitals = [h for h in session.scalars(select(Hospital)) if "emergency" in (h.facilities or [])]
     n_total = cfg.SEED_AMBULANCES
+    if not hospitals and not net.m:
+        return 0
     n_hosp = min(len(hospitals), int(n_total * 0.6))
     spots = []
     for h in rng.sample(hospitals, n_hosp):

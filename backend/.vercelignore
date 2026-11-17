@@ -1,8 +1,0 @@
-# keep the Vercel function small: only code + the pre-built road graph
-tests/
-sample_data/
-data/
-.venv/
-__pycache__/
-*.pyc
-.env

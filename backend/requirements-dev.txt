@@ -1,4 +1,0 @@
-# Everything for running locally: downloading the road network, seeding, tests.
--r requirements.txt
-osmnx>=2.0
-pytest>=8.0

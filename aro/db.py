@@ -1,4 +1,4 @@
-"""Database engine and sessions (SQLAlchemy 2.0, PostgreSQL)."""
+"""Database engine and sessions (SQLAlchemy 2.0). PostgreSQL normally; SQLite as a fallback."""
 
 from __future__ import annotations
 
@@ -19,12 +19,15 @@ SessionLocal = sessionmaker(expire_on_commit=False)
 def init_engine(url: str, serverless: bool = False):
     """Create the engine and all tables (idempotent)."""
     global engine
-    kwargs = {"pool_pre_ping": True, "future": True}
-    if serverless:
-        # small pool, recycle idle connections, and no server-side prepared statements
-        # (works with Neon's pooled / PgBouncer connection string)
-        kwargs.update(pool_size=2, max_overflow=2, pool_recycle=300,
-                      connect_args={"prepare_threshold": None})
+    if url.startswith("sqlite"):
+        kwargs = {"connect_args": {"check_same_thread": False, "timeout": 30}}
+    else:
+        kwargs = {"pool_pre_ping": True}
+        if serverless:
+            # small pool, recycle idle connections, no server-side prepared statements
+            # (needed for Neon's pooled connection string)
+            kwargs.update(pool_size=2, max_overflow=3, pool_recycle=300,
+                          connect_args={"prepare_threshold": None})
     engine = create_engine(url, **kwargs)
     SessionLocal.configure(bind=engine)
     from . import models  # noqa: F401  (register tables)

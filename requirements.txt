@@ -1,4 +1,3 @@
-# What the server needs at runtime (this is what Vercel installs).
 flask>=3.0
 sqlalchemy>=2.0
 psycopg[binary]>=3.1

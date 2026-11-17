@@ -29,13 +29,25 @@ def err(msg, code=400):
     return jsonify({"error": msg}), code
 
 
+@bp.before_request
+def _database_first():
+    """Every endpoint except /status needs the database; report problems as JSON, never crash."""
+    if request.endpoint == "api.status":
+        return None
+    r = rt()
+    if not r.db_ok:
+        r.ensure_db()
+        if not r.db_ok:
+            return err(r.error or "The database is not reachable.", 503)
+    return None
+
+
 def need_network():
     r = rt()
-    if cfg().SERVERLESS:
-        r.ensure_loaded()
+    r.ensure_loaded(wait=cfg().SERVERLESS)
     if r.net is None:
-        return err("The road network is still loading - please wait.", 503)
-    from .app import sync_network
+        return err(r.error or "The road network is still loading - please wait.", 503)
+    from .server import sync_network
     sync_network(r.net)   # pick up traffic / closures changed by any server instance
     return None
 
@@ -53,12 +65,13 @@ def _now():
 def status():
     r = rt()
     c = cfg()
-    if c.SERVERLESS:
-        r.ensure_loaded()
+    # on Vercel this request does the loading itself; locally a background thread does it
+    r.ensure_loaded(wait=c.SERVERLESS)
     from .geo import square_bbox
 
     s, w, n, e = square_bbox(*c.AREA_CENTER, c.AREA_SIZE_KM)
     out = {"status": r.status, "log": r.log[-12:], "error": r.error,
+           "db_mode": c.DB_MODE,
            "area": {"name": c.AREA_NAME, "center": list(c.AREA_CENTER), "size_km": c.AREA_SIZE_KM,
                     "bounds": [[s, w], [n, e]]}}
     if r.net is not None:
@@ -68,10 +81,6 @@ def status():
 
 @bp.get("/meta")
 def meta():
-    if cfg().SERVERLESS:
-        rt().ensure_loaded()
-    if not rt().db_ok:
-        return err(rt().error or "database not connected", 503)
     with session_scope() as s:
         types = [t.to_dict() for t in s.scalars(select(EmergencyType).order_by(EmergencyType.sort))]
     return jsonify({

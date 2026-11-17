@@ -1,0 +1,6 @@
+[
+  {"kind": "hospital", "name": "Demo Hospital North", "lat": 60.5370, "lon": 26.9420},
+  {"kind": "hospital", "name": "Demo Hospital South-East", "lat": 60.5235, "lon": 26.9620},
+  {"kind": "ambulance_station", "name": "Ambulance Base Central", "lat": 60.5300, "lon": 26.9500},
+  {"kind": "ambulance_station", "name": "Ambulance Base West", "lat": 60.5280, "lon": 26.9350}
+]

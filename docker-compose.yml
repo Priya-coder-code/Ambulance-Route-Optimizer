@@ -1,0 +1,17 @@
+# PostgreSQL for the Ambulance Route Optimizer.
+#   docker compose up -d        (database "aro", user "aro", password "aro" on localhost:5432)
+services:
+  db:
+    image: postgres:16
+    restart: unless-stopped
+    environment:
+      POSTGRES_DB: aro
+      POSTGRES_USER: aro
+      POSTGRES_PASSWORD: aro
+    ports:
+      - "5432:5432"
+    volumes:
+      - aro_pgdata:/var/lib/postgresql/data
+
+volumes:
+  aro_pgdata:

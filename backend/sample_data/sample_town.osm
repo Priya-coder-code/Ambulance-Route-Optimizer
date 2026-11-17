@@ -1,0 +1,2805 @@
+<?xml version='1.0' encoding='utf-8'?>
+<osm version="0.6" generator="libosmium/2.23.1">
+  <node id="246991" version="4" timestamp="2011-01-28T14:14:03Z" lat="60.5319394" lon="26.9609156" />
+  <node id="246993" version="4" timestamp="2011-01-28T14:13:54Z" lat="60.5337332" lon="26.9634493" />
+  <node id="246994" version="3" timestamp="2009-10-10T00:19:01Z" lat="60.5351051" lon="26.9657014" />
+  <node id="36156590" version="5" timestamp="2013-09-10T15:51:35Z" lat="60.5201658" lon="26.9521342" />
+  <node id="36156592" version="6" timestamp="2013-09-10T15:51:35Z" lat="60.5223076" lon="26.947782" />
+  <node id="36156593" version="5" timestamp="2013-09-10T15:51:35Z" lat="60.522842" lon="26.9466805" />
+  <node id="36156594" version="4" timestamp="2013-09-10T15:51:35Z" lat="60.5237783" lon="26.9452439" />
+  <node id="36156595" version="2" timestamp="2009-08-27T20:25:46Z" lat="60.5247226" lon="26.9440497" />
+  <node id="36156596" version="4" timestamp="2013-05-23T09:07:58Z" lat="60.5257978" lon="26.9431029" />
+  <node id="36156602" version="3" timestamp="2013-05-23T09:07:58Z" lat="60.5259542" lon="26.9449589">
+    <tag k="highway" v="crossing" />
+    <tag k="crossing" v="uncontrolled" />
+  </node>
+  <node id="36156603" version="2" timestamp="2012-07-01T17:43:31Z" lat="60.5261879" lon="26.9461647" />
+  <node id="36156604" version="2" timestamp="2012-07-01T17:43:31Z" lat="60.5265712" lon="26.9473279" />
+  <node id="36156605" version="2" timestamp="2012-07-01T17:43:31Z" lat="60.5271881" lon="26.9484857" />
+  <node id="36156606" version="1" timestamp="2007-08-25T19:45:44Z" lat="60.5280014" lon="26.9493189">
+    <tag k="created_by" v="JOSM" />
+  </node>
+  <node id="36156607" version="2" timestamp="2012-07-01T17:43:31Z" lat="60.5291662" lon="26.9502467" />
+  <node id="36156608" version="2" timestamp="2012-07-01T17:43:31Z" lat="60.5297113" lon="26.9509777" />
+  <node id="36156609" version="4" timestamp="2013-05-23T09:07:58Z" lat="60.5301728" lon="26.9519778">
+    <tag k="highway" v="crossing" />
+    <tag k="crossing" v="uncontrolled" />
+  </node>
+  <node id="36156610" version="1" timestamp="2007-08-25T19:45:45Z" lat="60.5308451" lon="26.9535365">
+    <tag k="created_by" v="JOSM" />
+  </node>
+  <node id="36156611" version="2" timestamp="2009-08-28T20:27:46Z" lat="60.5312441" lon="26.9541922" />
+  <node id="36156612" version="4" timestamp="2015-08-04T14:45:17Z" lat="60.5332145" lon="26.956049" />
+  <node id="36156613" version="3" timestamp="2011-07-17T18:29:43Z" lat="60.5334386" lon="26.9564051" />
+  <node id="36156614" version="3" timestamp="2011-07-17T18:29:43Z" lat="60.5335725" lon="26.9567179" />
+  <node id="36156615" version="2" timestamp="2011-07-17T18:29:43Z" lat="60.5348872" lon="26.9636324" />
+  <node id="36156616" version="2" timestamp="2009-08-29T20:16:18Z" lat="60.5352019" lon="26.9645764" />
+  <node id="36156617" version="2" timestamp="2011-08-11T18:16:14Z" lat="60.5356162" lon="26.9654282" />
+  <node id="277446336" version="4" timestamp="2010-08-23T18:40:18Z" lat="60.5280411" lon="26.941323" />
+  <node id="277446337" version="5" timestamp="2010-08-23T18:40:20Z" lat="60.529977" lon="26.9397482" />
+  <node id="277446338" version="5" timestamp="2010-08-23T18:40:17Z" lat="60.532375" lon="26.9377039" />
+  <node id="277446339" version="6" timestamp="2010-08-31T09:59:13Z" lat="60.5344422" lon="26.9359832" />
+  <node id="277446340" version="5" timestamp="2010-08-31T09:59:13Z" lat="60.5364314" lon="26.9340508" />
+  <node id="277446341" version="5" timestamp="2010-08-31T09:59:13Z" lat="60.5381256" lon="26.9319389" />
+  <node id="283139350" version="3" timestamp="2011-07-17T16:59:21Z" lat="60.5223507" lon="26.9457097" />
+  <node id="283139351" version="3" timestamp="2011-07-17T16:59:21Z" lat="60.5218329" lon="26.945495" />
+  <node id="283139352" version="3" timestamp="2011-07-17T16:59:21Z" lat="60.5216615" lon="26.9455324" />
+  <node id="283139353" version="3" timestamp="2011-07-17T16:59:21Z" lat="60.5208353" lon="26.9457869" />
+  <node id="283139355" version="3" timestamp="2011-07-17T16:59:21Z" lat="60.5204203" lon="26.945675" />
+  <node id="372554061" version="2" timestamp="2011-01-28T14:14:01Z" lat="60.5208292" lon="26.9466163" />
+  <node id="372554069" version="2" timestamp="2011-01-28T14:13:54Z" lat="60.521641" lon="26.9476625" />
+  <node id="372554075" version="2" timestamp="2011-01-28T14:13:55Z" lat="60.5223564" lon="26.948574" />
+  <node id="372554078" version="3" timestamp="2013-05-23T10:01:51Z" lat="60.5205974" lon="26.9466439">
+    <tag k="ref" v="77" />
+    <tag k="highway" v="motorway_junction" />
+  </node>
+  <node id="372554087" version="2" timestamp="2011-01-28T14:13:56Z" lat="60.5236039" lon="26.9505085" />
+  <node id="372554093" version="3" timestamp="2012-08-02T00:43:28Z" lat="60.5233093" lon="26.9498012">
+    <tag k="ref" v="77" />
+    <tag k="highway" v="motorway_junction" />
+  </node>
+  <node id="372554129" version="2" timestamp="2011-01-28T14:13:55Z" lat="60.5250417" lon="26.951991" />
+  <node id="372554136" version="2" timestamp="2011-01-28T14:13:57Z" lat="60.5259003" lon="26.9530537" />
+  <node id="372554142" version="3" timestamp="2011-07-17T18:01:58Z" lat="60.5251961" lon="26.9525078" />
+  <node id="372554149" version="2" timestamp="2011-01-28T14:14:03Z" lat="60.5267984" lon="26.9541724" />
+  <node id="372554160" version="2" timestamp="2011-01-28T14:14:03Z" lat="60.5267209" lon="26.9544062" />
+  <node id="372554172" version="3" timestamp="2013-05-23T10:01:51Z" lat="60.5284455" lon="26.9565553">
+    <tag k="ref" v="78" />
+    <tag k="highway" v="motorway_junction" />
+  </node>
+  <node id="372554181" version="2" timestamp="2011-01-28T14:13:56Z" lat="60.528707" lon="26.9565551" />
+  <node id="372554210" version="3" timestamp="2011-01-28T14:13:57Z" lat="60.5312154" lon="26.9596657" />
+  <node id="372554225" version="2" timestamp="2011-01-28T14:13:58Z" lat="60.5324952" lon="26.9616537" />
+  <node id="372554239" version="2" timestamp="2009-10-10T00:19:00Z" lat="60.5343973" lon="26.9644929" />
+  <node id="372554245" version="3" timestamp="2011-01-28T14:13:54Z" lat="60.5327778" lon="26.9617031" />
+  <node id="372554252" version="3" timestamp="2011-01-28T14:13:55Z" lat="60.5335369" lon="26.9627947" />
+  <node id="372554260" version="2" timestamp="2011-01-28T14:14:05Z" lat="60.534181" lon="26.9637904" />
+  <node id="372554276" version="2" timestamp="2011-01-28T14:14:02Z" lat="60.5353296" lon="26.9657183" />
+  <node id="372554289" version="2" timestamp="2009-10-10T00:19:01Z" lat="60.5359741" lon="26.96729" />
+  <node id="372554297" version="2" timestamp="2011-01-28T14:14:03Z" lat="60.5366534" lon="26.9685858" />
+  <node id="372554304" version="2" timestamp="2011-01-28T14:13:58Z" lat="60.5367437" lon="26.9683677" />
+  <node id="372554320" version="1" timestamp="2009-04-11T13:27:18Z" lat="60.5234762" lon="26.9509304" />
+  <node id="372554340" version="3" timestamp="2011-07-17T18:01:58Z" lat="60.521786" lon="26.951477" />
+  <node id="372554346" version="6" timestamp="2013-09-10T15:51:35Z" lat="60.5209998" lon="26.9506398" />
+  <node id="372554351" version="2" timestamp="2011-07-17T18:01:58Z" lat="60.5241291" lon="26.9513348" />
+  <node id="372554358" version="3" timestamp="2011-07-17T18:01:58Z" lat="60.522773" lon="26.9509717" />
+  <node id="372554366" version="4" timestamp="2011-07-17T18:01:58Z" lat="60.5212889" lon="26.9511658" />
+  <node id="475347451" version="5" timestamp="2013-09-10T15:51:35Z" lat="60.5234902" lon="26.9456367" />
+  <node id="475347452" version="1" timestamp="2009-08-27T20:25:14Z" lat="60.5243277" lon="26.9444734" />
+  <node id="475347453" version="2" timestamp="2013-09-10T15:51:35Z" lat="60.5239621" lon="26.9449319" />
+  <node id="475347454" version="1" timestamp="2009-08-27T20:25:14Z" lat="60.5245234" lon="26.9442506" />
+  <node id="475347455" version="2" timestamp="2013-05-23T09:07:58Z" lat="60.5252876" lon="26.9435161" />
+  <node id="475347456" version="2" timestamp="2013-05-23T09:07:58Z" lat="60.5249897" lon="26.9437892" />
+  <node id="475347457" version="2" timestamp="2013-05-23T09:07:58Z" lat="60.5248566" lon="26.9439118" />
+  <node id="475347460" version="5" timestamp="2015-08-04T14:45:17Z" lat="60.533057" lon="26.9558669" />
+  <node id="475347461" version="4" timestamp="2015-08-04T14:48:13Z" lat="60.5332685" lon="26.9542466" />
+  <node id="475347464" version="4" timestamp="2011-08-11T18:16:14Z" lat="60.5333831" lon="26.9536785" />
+  <node id="475347467" version="4" timestamp="2011-08-11T18:16:14Z" lat="60.5335204" lon="26.9533215" />
+  <node id="475347469" version="4" timestamp="2011-08-11T18:16:14Z" lat="60.5337235" lon="26.9529194" />
+  <node id="475347472" version="3" timestamp="2011-08-11T18:16:14Z" lat="60.5339587" lon="26.9525857" />
+  <node id="475347483" version="5" timestamp="2011-08-11T18:16:14Z" lat="60.538509" lon="26.9481817" />
+  <node id="475347486" version="4" timestamp="2011-08-11T18:16:14Z" lat="60.5393741" lon="26.9468617" />
+  <node id="475347487" version="4" timestamp="2011-08-11T18:16:15Z" lat="60.5394117" lon="26.9466803" />
+  <node id="475347489" version="5" timestamp="2011-08-11T18:16:15Z" lat="60.5388156" lon="26.9477486" />
+  <node id="475347494" version="4" timestamp="2011-01-09T05:57:41Z" lat="60.5394248" lon="26.9493166" />
+  <node id="475347495" version="4" timestamp="2011-01-09T05:57:41Z" lat="60.5396674" lon="26.9498004" />
+  <node id="475347497" version="4" timestamp="2011-01-09T05:57:42Z" lat="60.539843" lon="26.9500992" />
+  <node id="476002840" version="5" timestamp="2011-08-11T18:16:15Z" lat="60.5357914" lon="26.9508297" />
+  <node id="476002842" version="4" timestamp="2011-06-13T20:00:52Z" lat="60.5350357" lon="26.9475598" />
+  <node id="476002845" version="5" timestamp="2011-07-17T18:29:43Z" lat="60.5349277" lon="26.9469185" />
+  <node id="476002847" version="5" timestamp="2011-07-17T18:29:43Z" lat="60.5349766" lon="26.9466882" />
+  <node id="476002849" version="5" timestamp="2011-08-11T18:16:15Z" lat="60.5354075" lon="26.9455838" />
+  <node id="476002852" version="6" timestamp="2011-08-11T18:16:15Z" lat="60.5354625" lon="26.9453183" />
+  <node id="476002855" version="6" timestamp="2011-08-11T18:16:15Z" lat="60.5354203" lon="26.9450461" />
+  <node id="476002858" version="6" timestamp="2011-08-11T18:16:15Z" lat="60.5352459" lon="26.9445105" />
+  <node id="476002869" version="6" timestamp="2011-08-11T18:16:15Z" lat="60.5351099" lon="26.9435878" />
+  <node id="476002870" version="6" timestamp="2011-08-11T18:16:15Z" lat="60.5350154" lon="26.943187" />
+  <node id="476002871" version="6" timestamp="2011-08-11T18:16:15Z" lat="60.5349104" lon="26.9428617" />
+  <node id="476002875" version="6" timestamp="2011-08-11T18:16:15Z" lat="60.5344689" lon="26.9420535" />
+  <node id="476002876" version="6" timestamp="2011-08-11T18:16:15Z" lat="60.53428" lon="26.9417068" />
+  <node id="476002879" version="6" timestamp="2016-04-25T16:25:37Z" lat="60.5340278" lon="26.9408545" />
+  <node id="476002881" version="5" timestamp="2011-06-13T20:00:55Z" lat="60.5336867" lon="26.9401681" />
+  <node id="476002882" version="5" timestamp="2011-06-13T20:00:53Z" lat="60.5335851" lon="26.939821" />
+  <node id="476002883" version="5" timestamp="2011-06-13T20:00:49Z" lat="60.5335396" lon="26.9395177" />
+  <node id="476002884" version="5" timestamp="2011-06-13T20:00:51Z" lat="60.5335478" lon="26.9384055" />
+  <node id="476002886" version="5" timestamp="2011-06-13T20:00:57Z" lat="60.533486" lon="26.9376487" />
+  <node id="476002887" version="6" timestamp="2011-06-13T20:00:56Z" lat="60.5333197" lon="26.9370664" />
+  <node id="476002889" version="3" timestamp="2013-09-10T15:51:35Z" lat="60.5225312" lon="26.9462068" />
+  <node id="476002890" version="2" timestamp="2011-07-17T16:59:23Z" lat="60.5223897" lon="26.9460001" />
+  <node id="476002891" version="2" timestamp="2011-07-17T16:59:23Z" lat="60.5222774" lon="26.9458537" />
+  <node id="476002892" version="2" timestamp="2011-07-17T16:59:23Z" lat="60.5221723" lon="26.9457807" />
+  <node id="476002896" version="2" timestamp="2011-07-17T16:59:23Z" lat="60.522058" lon="26.9457436" />
+  <node id="476002897" version="2" timestamp="2011-07-17T16:59:23Z" lat="60.5219278" lon="26.9457722" />
+  <node id="476002898" version="2" timestamp="2011-07-17T16:59:23Z" lat="60.5218227" lon="26.9458502" />
+  <node id="476002899" version="2" timestamp="2011-07-17T16:59:23Z" lat="60.5217531" lon="26.9459689" />
+  <node id="476002900" version="2" timestamp="2011-07-17T16:59:23Z" lat="60.5216856" lon="26.9461601" />
+  <node id="476002901" version="2" timestamp="2011-07-17T16:59:24Z" lat="60.5216454" lon="26.9463792" />
+  <node id="476002903" version="2" timestamp="2011-07-17T16:59:24Z" lat="60.521641" lon="26.9465727" />
+  <node id="476002904" version="2" timestamp="2011-07-17T16:59:24Z" lat="60.5216998" lon="26.9470014" />
+  <node id="476002905" version="2" timestamp="2011-07-17T16:59:24Z" lat="60.5217666" lon="26.9472256" />
+  <node id="476002906" version="2" timestamp="2011-07-17T16:59:24Z" lat="60.5218645" lon="26.9474818" />
+  <node id="476002907" version="2" timestamp="2011-07-17T16:59:24Z" lat="60.5219875" lon="26.9477442" />
+  <node id="476002908" version="1" timestamp="2009-08-28T20:27:27Z" lat="60.5221396" lon="26.9480099" />
+  <node id="476002910" version="2" timestamp="2011-07-17T16:59:24Z" lat="60.5226485" lon="26.9487873" />
+  <node id="476003110" version="2" timestamp="2009-08-29T20:16:18Z" lat="60.5295573" lon="26.9582067" />
+  <node id="476003111" version="2" timestamp="2009-08-29T20:16:18Z" lat="60.5305881" lon="26.9601551" />
+  <node id="476003113" version="2" timestamp="2009-08-29T20:16:18Z" lat="60.5308643" lon="26.9606755" />
+  <node id="476003114" version="2" timestamp="2009-08-29T20:16:18Z" lat="60.5313704" lon="26.9614833" />
+  <node id="476003115" version="3" timestamp="2015-08-04T14:45:18Z" lat="60.5315144" lon="26.9616873" />
+  <node id="476003116" version="4" timestamp="2015-08-04T14:45:17Z" lat="60.5328529" lon="26.9568416" />
+  <node id="476824100" version="1" timestamp="2009-08-29T20:16:12Z" lat="60.5354207" lon="26.9651025" />
+  <node id="476824103" version="1" timestamp="2009-08-29T20:16:13Z" lat="60.5300658" lon="26.9591392" />
+  <node id="476824106" version="2" timestamp="2011-07-17T18:01:58Z" lat="60.5237537" lon="26.9510503" />
+  <node id="476824108" version="2" timestamp="2011-07-17T18:01:58Z" lat="60.5231735" lon="26.9508878" />
+  <node id="476824110" version="2" timestamp="2011-07-17T18:01:59Z" lat="60.5229814" lon="26.9509086" />
+  <node id="476824112" version="2" timestamp="2011-07-17T18:01:59Z" lat="60.5219623" lon="26.9514443" />
+  <node id="476824114" version="2" timestamp="2011-07-17T18:01:59Z" lat="60.5223338" lon="26.9512254" />
+  <node id="476824116" version="3" timestamp="2011-07-17T18:01:59Z" lat="60.5215895" lon="26.9514348" />
+  <node id="476824118" version="4" timestamp="2017-05-07T18:30:02Z" lat="60.5205353" lon="26.9514693" />
+  <node id="477826225" version="4" timestamp="2015-08-04T14:46:54Z" lat="60.5319643" lon="26.9599956" />
+  <node id="477826228" version="1" timestamp="2009-08-30T19:38:57Z" lat="60.5305384" lon="26.9583408" />
+  <node id="491053958" version="4" timestamp="2011-07-17T18:29:43Z" lat="60.5360941" lon="26.9520928" />
+  <node id="491053961" version="4" timestamp="2011-08-11T18:16:15Z" lat="60.5370127" lon="26.9512035" />
+  <node id="491053962" version="2" timestamp="2016-04-25T16:25:34Z" lat="60.5361578" lon="26.9514745">
+    <tag k="amenity" v="post_box" />
+  </node>
+  <node id="493621159" version="2" timestamp="2010-10-22T15:47:13Z" lat="60.5267846" lon="26.9669538" />
+  <node id="493621162" version="2" timestamp="2015-08-04T15:02:06Z" lat="60.5247413" lon="26.9688627" />
+  <node id="493621164" version="1" timestamp="2009-09-11T18:50:05Z" lat="60.5240592" lon="26.9694482" />
+  <node id="493621166" version="2" timestamp="2017-05-07T18:30:02Z" lat="60.5215048" lon="26.9571365" />
+  <node id="493621168" version="1" timestamp="2009-09-11T18:50:05Z" lat="60.521" lon="26.9559931" />
+  <node id="493621171" version="1" timestamp="2009-09-11T18:50:05Z" lat="60.5207947" lon="26.9553582" />
+  <node id="527715613" version="2" timestamp="2011-01-28T14:13:54Z" lat="60.532004" lon="26.9606658" />
+  <node id="527715616" version="2" timestamp="2011-01-28T14:13:56Z" lat="60.5331219" lon="26.9625344" />
+  <node id="527715619" version="2" timestamp="2011-01-28T14:13:52Z" lat="60.5357308" lon="26.9664451" />
+  <node id="530181758" version="3" timestamp="2015-08-04T15:02:06Z" lat="60.5293125" lon="26.9654494" />
+  <node id="530181759" version="2" timestamp="2010-10-05T08:07:08Z" lat="60.5302059" lon="26.9681688" />
+  <node id="530181760" version="2" timestamp="2010-10-22T15:47:18Z" lat="60.5296202" lon="26.9668122" />
+  <node id="530181761" version="1" timestamp="2009-10-13T20:17:04Z" lat="60.5293833" lon="26.9660068" />
+  <node id="530181763" version="3" timestamp="2019-01-23T19:21:13Z" lat="60.5329127" lon="26.968048" />
+  <node id="749392258" version="3" timestamp="2011-07-17T18:29:43Z" lat="60.5304578" lon="26.9515414" />
+  <node id="749392264" version="4" timestamp="2011-08-11T18:16:16Z" lat="60.5330273" lon="26.9536065" />
+  <node id="749392282" version="3" timestamp="2011-08-11T18:16:16Z" lat="60.5393715" lon="26.9464771" />
+  <node id="749392284" version="3" timestamp="2016-04-25T16:25:35Z" lat="60.5373779" lon="26.9410295">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="749392287" version="4" timestamp="2013-05-23T09:07:58Z" lat="60.5300963" lon="26.9517868" />
+  <node id="749392295" version="3" timestamp="2011-07-17T18:29:44Z" lat="60.5327795" lon="26.9521568" />
+  <node id="749392341" version="3" timestamp="2011-07-17T18:29:44Z" lat="60.5326965" lon="26.9521631" />
+  <node id="749392360" version="4" timestamp="2011-08-11T18:16:16Z" lat="60.5333532" lon="26.9537807" />
+  <node id="749392396" version="4" timestamp="2011-07-17T18:29:44Z" lat="60.5307154" lon="26.9515079" />
+  <node id="749392413" version="4" timestamp="2011-08-11T18:16:16Z" lat="60.5332881" lon="26.9536995" />
+  <node id="773542103" version="3" timestamp="2013-05-23T09:07:58Z" lat="60.5256613" lon="26.9416883" />
+  <node id="773542112" version="2" timestamp="2011-08-11T18:16:16Z" lat="60.5359376" lon="26.9420045" />
+  <node id="773542114" version="1" timestamp="2010-06-16T10:09:57Z" lat="60.531065" lon="26.931452" />
+  <node id="773542118" version="1" timestamp="2010-06-16T10:09:57Z" lat="60.5341051" lon="26.9441148" />
+  <node id="773542121" version="3" timestamp="2011-08-11T18:16:16Z" lat="60.5381544" lon="26.9502736" />
+  <node id="773542123" version="2" timestamp="2012-07-01T17:43:32Z" lat="60.523627" lon="26.9382208" />
+  <node id="773542129" version="2" timestamp="2010-10-05T11:13:15Z" lat="60.5315771" lon="26.933817" />
+  <node id="773542137" version="3" timestamp="2011-08-11T18:16:16Z" lat="60.5395401" lon="26.9604722" />
+  <node id="773542139" version="2" timestamp="2011-07-17T16:59:27Z" lat="60.5214051" lon="26.943451" />
+  <node id="773542142" version="3" timestamp="2012-07-01T17:43:32Z" lat="60.5247835" lon="26.9420513" />
+  <node id="773542148" version="2" timestamp="2011-08-11T18:16:16Z" lat="60.5353637" lon="26.94244" />
+  <node id="773542149" version="2" timestamp="2010-10-05T11:13:17Z" lat="60.5310895" lon="26.9316814" />
+  <node id="773542152" version="1" timestamp="2010-06-16T10:09:59Z" lat="60.520846" lon="26.9421257" />
+  <node id="773542153" version="2" timestamp="2016-04-25T16:25:37Z" lat="60.5334663" lon="26.9413992" />
+  <node id="773542154" version="3" timestamp="2011-08-11T18:16:16Z" lat="60.5368651" lon="26.9553844" />
+  <node id="773542156" version="2" timestamp="2012-07-01T17:43:32Z" lat="60.5230272" lon="26.9387758" />
+  <node id="773542165" version="2" timestamp="2010-10-05T11:13:18Z" lat="60.5319432" lon="26.9348274" />
+  <node id="773542175" version="1" timestamp="2010-06-16T10:09:59Z" lat="60.521966" lon="26.9417779" />
+  <node id="773542182" version="2" timestamp="2015-09-09T10:40:22Z" lat="60.5243557" lon="26.9393573" />
+  <node id="773542188" version="1" timestamp="2010-06-16T10:10:00Z" lat="60.5357144" lon="26.9440986" />
+  <node id="773542195" version="3" timestamp="2011-08-11T18:16:16Z" lat="60.5368547" lon="26.9580827" />
+  <node id="773542199" version="3" timestamp="2012-07-01T17:43:32Z" lat="60.5236136" lon="26.943368" />
+  <node id="773542208" version="1" timestamp="2010-06-16T10:10:00Z" lat="60.5330517" lon="26.936337" />
+  <node id="773542221" version="1" timestamp="2010-06-16T10:10:00Z" lat="60.521873" lon="26.9410822" />
+  <node id="773542227" version="2" timestamp="2012-07-01T17:43:32Z" lat="60.5243016" lon="26.9379814" />
+  <node id="773542240" version="2" timestamp="2011-07-17T16:59:27Z" lat="60.5222826" lon="26.9450352" />
+  <node id="773542245" version="2" timestamp="2011-08-11T18:16:16Z" lat="60.5362962" lon="26.9435174" />
+  <node id="773542247" version="2" timestamp="2010-10-05T11:13:12Z" lat="60.5310916" lon="26.9304583" />
+  <node id="773542253" version="3" timestamp="2011-08-11T18:16:17Z" lat="60.5374831" lon="26.950932" />
+  <node id="773542254" version="1" timestamp="2010-06-16T10:10:01Z" lat="60.5211139" lon="26.9416191" />
+  <node id="773542259" version="2" timestamp="2010-10-05T11:13:15Z" lat="60.5313923" lon="26.932806" />
+  <node id="773542265" version="4" timestamp="2011-08-11T18:16:17Z" lat="60.5378001" lon="26.9621444" />
+  <node id="818778962" version="2" timestamp="2010-12-08T18:51:20Z" lat="60.5257616" lon="26.9302395" />
+  <node id="818778963" version="2" timestamp="2010-12-08T18:51:19Z" lat="60.5258193" lon="26.9305863" />
+  <node id="818778964" version="3" timestamp="2011-05-13T13:28:32Z" lat="60.5259992" lon="26.9311733">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="876232559" version="1" timestamp="2010-08-23T18:40:05Z" lat="60.5326124" lon="26.9390831" />
+  <node id="876232566" version="2" timestamp="2013-05-23T09:07:58Z" lat="60.5245549" lon="26.945664" />
+  <node id="876232568" version="2" timestamp="2011-08-11T18:16:17Z" lat="60.5328862" lon="26.9419392" />
+  <node id="876232571" version="3" timestamp="2015-02-14T14:52:22Z" lat="60.5363901" lon="26.9457871">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="876232572" version="1" timestamp="2010-08-23T18:40:05Z" lat="60.5339806" lon="26.9461989" />
+  <node id="876232574" version="4" timestamp="2016-04-25T16:25:35Z" lat="60.5335322" lon="26.9390203" />
+  <node id="876232575" version="3" timestamp="2013-05-23T08:43:33Z" lat="60.5247589" lon="26.9466309" />
+  <node id="876232579" version="2" timestamp="2013-05-23T08:43:33Z" lat="60.523112" lon="26.9482502" />
+  <node id="876232583" version="3" timestamp="2016-04-25T16:25:37Z" lat="60.5323364" lon="26.9424926" />
+  <node id="876232585" version="2" timestamp="2011-07-17T18:01:59Z" lat="60.5217951" lon="26.9484437" />
+  <node id="876232590" version="3" timestamp="2011-07-17T18:29:44Z" lat="60.5355018" lon="26.949553" />
+  <node id="876232593" version="1" timestamp="2010-08-23T18:40:06Z" lat="60.5330016" lon="26.9390832" />
+  <node id="876232596" version="3" timestamp="2016-04-25T16:25:37Z" lat="60.5317384" lon="26.9430702" />
+  <node id="876232597" version="3" timestamp="2013-05-23T08:43:33Z" lat="60.5241196" lon="26.9493619" />
+  <node id="876232604" version="3" timestamp="2013-05-23T09:07:58Z" lat="60.5278676" lon="26.9548099" />
+  <node id="876232613" version="3" timestamp="2011-07-17T18:29:44Z" lat="60.5327136" lon="26.950617" />
+  <node id="876232616" version="2" timestamp="2012-07-01T17:43:32Z" lat="60.5299214" lon="26.951951" />
+  <node id="876232618" version="2" timestamp="2016-04-25T16:25:35Z" lat="60.5324599" lon="26.9404658" />
+  <node id="876232620" version="2" timestamp="2011-07-17T18:01:59Z" lat="60.5217884" lon="26.9512683" />
+  <node id="876232623" version="2" timestamp="2013-05-23T08:43:33Z" lat="60.5231778" lon="26.9475481" />
+  <node id="876232625" version="3" timestamp="2015-02-14T14:52:22Z" lat="60.5336448" lon="26.9451535">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="876232630" version="1" timestamp="2010-08-23T18:40:07Z" lat="60.5323197" lon="26.9477618" />
+  <node id="876232638" version="3" timestamp="2015-02-14T14:52:22Z" lat="60.5372995" lon="26.9460478">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="876232641" version="2" timestamp="2013-05-23T08:43:33Z" lat="60.5233823" lon="26.9485972" />
+  <node id="876232645" version="3" timestamp="2011-08-11T18:16:17Z" lat="60.5343957" lon="26.950404" />
+  <node id="876232646" version="3" timestamp="2015-02-14T14:52:22Z" lat="60.5330833" lon="26.9457191">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="876232647" version="2" timestamp="2011-07-17T18:02:00Z" lat="60.5221495" lon="26.9492292" />
+  <node id="876232648" version="2" timestamp="2011-08-11T18:16:17Z" lat="60.5363487" lon="26.9488015" />
+  <node id="876232650" version="3" timestamp="2013-05-23T08:43:33Z" lat="60.5252511" lon="26.9464683" />
+  <node id="876232652" version="3" timestamp="2017-05-07T18:30:02Z" lat="60.5215779" lon="26.9512133" />
+  <node id="876232661" version="1" timestamp="2010-08-23T18:40:07Z" lat="60.5309806" lon="26.9537591" />
+  <node id="876232662" version="3" timestamp="2011-08-11T18:16:17Z" lat="60.5360946" lon="26.947138" />
+  <node id="876232664" version="2" timestamp="2013-05-23T08:43:33Z" lat="60.5250241" lon="26.9452425" />
+  <node id="876232665" version="2" timestamp="2013-05-23T09:07:58Z" lat="60.5301989" lon="26.9531082" />
+  <node id="876232666" version="3" timestamp="2011-07-17T18:29:44Z" lat="60.5351461" lon="26.9480261" />
+  <node id="876232670" version="1" timestamp="2010-08-23T18:40:08Z" lat="60.5330016" lon="26.9382797" />
+  <node id="876232672" version="3" timestamp="2011-08-11T18:16:17Z" lat="60.5349294" lon="26.9501269" />
+  <node id="876232678" version="3" timestamp="2013-05-23T08:43:33Z" lat="60.5255886" lon="26.9475183" />
+  <node id="876232682" version="2" timestamp="2015-02-14T14:52:21Z" lat="60.5291821" lon="26.9562144">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="876232689" version="3" timestamp="2011-07-17T18:29:44Z" lat="60.5340247" lon="26.9491331" />
+  <node id="876232691" version="2" timestamp="2013-05-23T09:07:58Z" lat="60.5304741" lon="26.9527391" />
+  <node id="876232693" version="2" timestamp="2011-07-17T18:02:00Z" lat="60.5223183" lon="26.9504088" />
+  <node id="876232695" version="1" timestamp="2010-08-23T18:40:08Z" lat="60.5364973" lon="26.9487815" />
+  <node id="876232699" version="2" timestamp="2012-07-01T17:43:32Z" lat="60.5258965" lon="26.9445214" />
+  <node id="876232701" version="4" timestamp="2016-04-25T16:25:35Z" lat="60.5329734" lon="26.9517992">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="876232705" version="1" timestamp="2010-08-23T18:40:09Z" lat="60.5347349" lon="26.9467739" />
+  <node id="876232707" version="3" timestamp="2015-02-14T14:52:21Z" lat="60.5285095" lon="26.9555281">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="876232721" version="3" timestamp="2015-02-14T14:52:22Z" lat="60.5324831" lon="26.9462805">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="876232723" version="2" timestamp="2012-07-01T17:43:32Z" lat="60.5251717" lon="26.9461103" />
+  <node id="876232725" version="2" timestamp="2011-07-17T18:02:00Z" lat="60.5221" lon="26.9510709" />
+  <node id="876232726" version="2" timestamp="2015-02-14T14:52:22Z" lat="60.5373153" lon="26.9480005">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="876232734" version="3" timestamp="2013-05-23T08:43:33Z" lat="60.5248454" lon="26.9486199" />
+  <node id="876232740" version="3" timestamp="2011-07-17T18:29:44Z" lat="60.5338803" lon="26.949508" />
+  <node id="876277975" version="3" timestamp="2011-07-17T18:29:44Z" lat="60.5368315" lon="26.9574241" />
+  <node id="876277979" version="3" timestamp="2011-07-17T18:29:44Z" lat="60.5358043" lon="26.9617558" />
+  <node id="876277982" version="4" timestamp="2011-08-11T18:16:17Z" lat="60.535346" lon="26.9604669" />
+  <node id="876278016" version="3" timestamp="2011-07-17T18:29:44Z" lat="60.5387414" lon="26.967504" />
+  <node id="876278020" version="4" timestamp="2011-07-17T18:29:44Z" lat="60.5310698" lon="26.9502723" />
+  <node id="876278028" version="1" timestamp="2010-08-23T19:18:01Z" lat="60.5386871" lon="26.9661267" />
+  <node id="876278031" version="3" timestamp="2011-07-17T18:29:44Z" lat="60.5383212" lon="26.9564972" />
+  <node id="876278040" version="2" timestamp="2015-09-05T07:29:20Z" lat="60.5342563" lon="26.961965" />
+  <node id="876278056" version="3" timestamp="2011-07-17T18:29:44Z" lat="60.5367535" lon="26.957376" />
+  <node id="876278059" version="3" timestamp="2011-08-11T18:16:17Z" lat="60.5353367" lon="26.9563819" />
+  <node id="876278074" version="2" timestamp="2011-06-13T20:00:54Z" lat="60.5339021" lon="26.9601921" />
+  <node id="876278081" version="3" timestamp="2011-08-11T18:16:18Z" lat="60.5392772" lon="26.9584419" />
+  <node id="876278083" version="2" timestamp="2011-07-17T18:29:45Z" lat="60.5392916" lon="26.9682011" />
+  <node id="876278087" version="3" timestamp="2011-08-11T18:16:18Z" lat="60.536231" lon="26.9636953" />
+  <node id="876278112" version="3" timestamp="2011-07-17T18:29:45Z" lat="60.5308927" lon="26.9509561" />
+  <node id="876278138" version="3" timestamp="2011-08-11T18:16:18Z" lat="60.534712" lon="26.9534128" />
+  <node id="876278196" version="3" timestamp="2011-07-17T18:29:45Z" lat="60.5357566" lon="26.9582564" />
+  <node id="876278204" version="3" timestamp="2011-08-11T18:16:18Z" lat="60.5381691" lon="26.9536343" />
+  <node id="876278206" version="4" timestamp="2011-08-11T18:16:18Z" lat="60.5373367" lon="26.9574542" />
+  <node id="876278228" version="2" timestamp="2011-07-17T18:29:45Z" lat="60.5395667" lon="26.9672338" />
+  <node id="876278237" version="3" timestamp="2015-08-04T14:45:17Z" lat="60.5325888" lon="26.9586036" />
+  <node id="876278238" version="3" timestamp="2015-02-14T14:52:22Z" lat="60.5309798" lon="26.9529569">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="876278250" version="4" timestamp="2011-08-11T18:16:18Z" lat="60.537032" lon="26.9588583" />
+  <node id="876278256" version="3" timestamp="2011-08-11T18:16:18Z" lat="60.5388237" lon="26.9612041" />
+  <node id="876278286" version="3" timestamp="2011-07-17T18:29:45Z" lat="60.5373677" lon="26.9602751" />
+  <node id="876278301" version="4" timestamp="2016-04-25T16:25:34Z" lat="60.5348755" lon="26.9541222">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="876278304" version="4" timestamp="2011-08-11T18:16:18Z" lat="60.5325658" lon="26.9508367" />
+  <node id="876278309" version="1" timestamp="2010-08-23T19:18:13Z" lat="60.5391845" lon="26.966797" />
+  <node id="876278316" version="3" timestamp="2011-07-17T18:29:45Z" lat="60.5378579" lon="26.9569744" />
+  <node id="876278343" version="3" timestamp="2011-08-11T18:16:18Z" lat="60.5367755" lon="26.9549956" />
+  <node id="876278356" version="4" timestamp="2011-08-11T18:16:18Z" lat="60.5387532" lon="26.9561178" />
+  <node id="876278368" version="3" timestamp="2015-08-04T14:45:17Z" lat="60.5324256" lon="26.958374" />
+  <node id="876278381" version="3" timestamp="2015-08-04T14:45:17Z" lat="60.5322902" lon="26.9596381" />
+  <node id="892203575" version="1" timestamp="2010-09-01T17:25:14Z" lat="60.5302628" lon="26.9685601" />
+  <node id="892203638" version="1" timestamp="2010-09-01T17:25:17Z" lat="60.5201429" lon="26.9383155" />
+  <node id="892203639" version="2" timestamp="2012-07-01T17:43:33Z" lat="60.5220518" lon="26.9365358" />
+  <node id="892203644" version="2" timestamp="2012-07-01T17:43:33Z" lat="60.5215903" lon="26.9345948" />
+  <node id="894396069" version="3" timestamp="2011-07-17T16:59:19Z" lat="60.5230514" lon="26.945165">
+    <tag k="name" v="Neste Huttunen" />
+    <tag k="amenity" v="fuel" />
+    <tag k="operator" v="Neste" />
+    <tag k="addr:city" v="Kotka" />
+    <tag k="addr:street" v="Suurniitynkatu" />
+    <tag k="contact:fax" v="+358 5 260 6219" />
+    <tag k="addr:country" v="FI" />
+    <tag k="addr:postcode" v="48600" />
+    <tag k="contact:email" v="simo.huttunen@pp.inet.fi" />
+    <tag k="contact:phone" v="+358 5 210 7200" />
+    <tag k="contact:website" v="http://www.neste.fi/hakuasema.aspx?id=695&amp;path=2589;2655;2710;2821;2822;2823;3198;3199" />
+    <tag k="addr:housenumber" v="1" />
+  </node>
+  <node id="894396076" version="2" timestamp="2011-07-17T16:59:28Z" lat="60.5201184" lon="26.9454659" />
+  <node id="894396089" version="2" timestamp="2011-07-17T16:59:28Z" lat="60.5230191" lon="26.9442115" />
+  <node id="894396093" version="2" timestamp="2011-07-17T16:59:28Z" lat="60.5203448" lon="26.9442681" />
+  <node id="894396095" version="2" timestamp="2011-07-17T16:59:28Z" lat="60.5200922" lon="26.9442363" />
+  <node id="916936762" version="2" timestamp="2012-09-10T20:26:59Z" lat="60.524065" lon="26.932177">
+    <tag k="amenity" v="parking" />
+  </node>
+  <node id="916936791" version="2" timestamp="2015-09-09T09:50:20Z" lat="60.5230427" lon="26.9327416" />
+  <node id="916936792" version="1" timestamp="2010-09-18T15:51:04Z" lat="60.5232204" lon="26.9329199" />
+  <node id="916936796" version="2" timestamp="2015-09-09T09:50:20Z" lat="60.5234216" lon="26.9328276" />
+  <node id="916936798" version="2" timestamp="2015-09-09T09:50:20Z" lat="60.5240128" lon="26.9324804" />
+  <node id="916936800" version="2" timestamp="2015-09-09T09:50:20Z" lat="60.5243671" lon="26.9321933" />
+  <node id="938364364" version="1" timestamp="2010-10-05T10:32:28Z" lat="60.5283805" lon="26.9619796" />
+  <node id="938364370" version="1" timestamp="2010-10-05T10:32:28Z" lat="60.5266338" lon="26.9605022" />
+  <node id="938364389" version="1" timestamp="2010-10-05T10:32:30Z" lat="60.5296473" lon="26.964534" />
+  <node id="938364398" version="1" timestamp="2010-10-05T10:32:30Z" lat="60.5288162" lon="26.9646192" />
+  <node id="938364401" version="1" timestamp="2010-10-05T10:32:31Z" lat="60.5288487" lon="26.9592484" />
+  <node id="938364404" version="1" timestamp="2010-10-05T10:32:31Z" lat="60.5283663" lon="26.9632538" />
+  <node id="938364415" version="2" timestamp="2013-05-23T09:07:58Z" lat="60.5273042" lon="26.9567056" />
+  <node id="938364417" version="1" timestamp="2010-10-05T10:32:32Z" lat="60.5283439" lon="26.9624303" />
+  <node id="938364422" version="1" timestamp="2010-10-05T10:32:32Z" lat="60.5265565" lon="26.9599436" />
+  <node id="938364432" version="1" timestamp="2010-10-05T10:32:34Z" lat="60.5284172" lon="26.9617021" />
+  <node id="938364435" version="2" timestamp="2011-01-01T12:28:03Z" lat="60.5266068" lon="26.9610371" />
+  <node id="938364450" version="1" timestamp="2010-10-05T10:32:35Z" lat="60.5296209" lon="26.964381" />
+  <node id="938364454" version="1" timestamp="2010-10-05T10:32:36Z" lat="60.5288854" lon="26.9648964" />
+  <node id="938364468" version="1" timestamp="2010-10-05T10:32:37Z" lat="60.5284558" lon="26.9636468" />
+  <node id="938364470" version="3" timestamp="2013-05-23T09:07:58Z" lat="60.5278386" lon="26.9574014" />
+  <node id="938364474" version="1" timestamp="2010-10-05T10:32:37Z" lat="60.5283317" lon="26.9628483" />
+  <node id="938364483" version="1" timestamp="2010-10-05T10:32:38Z" lat="60.5264282" lon="26.9594636" />
+  <node id="938389857" version="1" timestamp="2010-10-05T11:12:52Z" lat="60.5331595" lon="26.9365753" />
+  <node id="938389871" version="1" timestamp="2010-10-05T11:12:52Z" lat="60.5316571" lon="26.9341045" />
+  <node id="938390016" version="1" timestamp="2010-10-05T11:12:56Z" lat="60.5311433" lon="26.9319563" />
+  <node id="938390064" version="2" timestamp="2011-06-13T20:00:52Z" lat="60.533928" lon="26.9406272" />
+  <node id="938390072" version="1" timestamp="2010-10-05T11:12:57Z" lat="60.5321267" lon="26.9351448" />
+  <node id="938390084" version="2" timestamp="2011-06-13T20:00:55Z" lat="60.5335405" lon="26.938019" />
+  <node id="938390090" version="1" timestamp="2010-10-05T11:12:58Z" lat="60.5317411" lon="26.934345" />
+  <node id="960200411" version="2" timestamp="2011-07-17T16:59:20Z" lat="60.5203703" lon="26.9496505">
+    <tag k="name" v="Teboil Karhula Tikankatu" />
+    <tag k="amenity" v="fuel" />
+    <tag k="operator" v="Teboil" />
+    <tag k="addr:city" v="Kotka" />
+    <tag k="addr:street" v="Tikankatu" />
+    <tag k="addr:country" v="FI" />
+    <tag k="addr:postcode" v="48600" />
+    <tag k="contact:phone" v="+358 400 874 656" />
+    <tag k="contact:website" v="http://www.teboil.fi/ServiceStation.asp?path=1;1510;1549;1743;14439" />
+    <tag k="addr:housenumber" v="11" />
+  </node>
+  <node id="960378217" version="1" timestamp="2010-10-22T15:04:08Z" lat="60.5264016" lon="26.9609218" />
+  <node id="960378220" version="1" timestamp="2010-10-22T15:04:08Z" lat="60.5259285" lon="26.9585938" />
+  <node id="960378221" version="1" timestamp="2010-10-22T15:04:08Z" lat="60.5225256" lon="26.9619899" />
+  <node id="960378224" version="2" timestamp="2017-05-07T18:30:02Z" lat="60.5237183" lon="26.9603862" />
+  <node id="960378233" version="1" timestamp="2010-10-22T15:04:09Z" lat="60.5236923" lon="26.9616405" />
+  <node id="960378235" version="1" timestamp="2010-10-22T15:04:09Z" lat="60.5264845" lon="26.9596742" />
+  <node id="960378241" version="1" timestamp="2010-10-22T15:04:09Z" lat="60.5257034" lon="26.9585443" />
+  <node id="960378245" version="1" timestamp="2010-10-22T15:04:09Z" lat="60.5225518" lon="26.9593538" />
+  <node id="960378263" version="2" timestamp="2017-05-07T18:30:02Z" lat="60.5220454" lon="26.959727" />
+  <node id="960407106" version="1" timestamp="2010-10-22T15:46:40Z" lat="60.5335083" lon="26.9679399" />
+  <node id="960407109" version="2" timestamp="2011-08-11T18:16:21Z" lat="60.5353073" lon="26.9678753" />
+  <node id="960407111" version="1" timestamp="2010-10-22T15:46:40Z" lat="60.5264889" lon="26.9640518" />
+  <node id="960407113" version="1" timestamp="2010-10-22T15:46:40Z" lat="60.5281881" lon="26.9662734" />
+  <node id="960407114" version="1" timestamp="2010-10-22T15:46:40Z" lat="60.523143" lon="26.9649923" />
+  <node id="960407128" version="1" timestamp="2010-10-22T15:46:40Z" lat="60.5246916" lon="26.9672149" />
+  <node id="960407133" version="2" timestamp="2019-01-23T19:21:13Z" lat="60.5323085" lon="26.9660699" />
+  <node id="960407136" version="1" timestamp="2010-10-22T15:46:41Z" lat="60.5309196" lon="26.9641696" />
+  <node id="960407137" version="1" timestamp="2010-10-22T15:46:41Z" lat="60.5348241" lon="26.9657004" />
+  <node id="960407139" version="2" timestamp="2016-04-25T16:25:33Z" lat="60.5265817" lon="26.9565316">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="960407140" version="1" timestamp="2010-10-22T15:46:41Z" lat="60.5253862" lon="26.9668476" />
+  <node id="960407141" version="1" timestamp="2010-10-22T15:46:41Z" lat="60.5312551" lon="26.9630613" />
+  <node id="960407143" version="1" timestamp="2010-10-22T15:46:41Z" lat="60.5285852" lon="26.960747" />
+  <node id="960407145" version="2" timestamp="2011-08-11T18:16:21Z" lat="60.5343821" lon="26.9685794" />
+  <node id="960407155" version="1" timestamp="2010-10-22T15:46:41Z" lat="60.5266472" lon="26.9664371" />
+  <node id="960407157" version="1" timestamp="2010-10-22T15:46:41Z" lat="60.5355708" lon="26.9690846" />
+  <node id="960407175" version="1" timestamp="2010-10-22T15:46:42Z" lat="60.5233983" lon="26.966234" />
+  <node id="960407177" version="2" timestamp="2019-01-23T19:21:13Z" lat="60.5332926" lon="26.9658594" />
+  <node id="960407181" version="2" timestamp="2019-01-23T19:21:13Z" lat="60.5338463" lon="26.9651062" />
+  <node id="960407189" version="1" timestamp="2010-10-22T15:46:42Z" lat="60.5254354" lon="26.9642515" />
+  <node id="960407194" version="1" timestamp="2010-10-22T15:46:42Z" lat="60.5350322" lon="26.9665589" />
+  <node id="960407195" version="1" timestamp="2010-10-22T15:46:42Z" lat="60.5244622" lon="26.9646928" />
+  <node id="960407207" version="1" timestamp="2010-10-22T15:46:43Z" lat="60.534512" lon="26.9698062" />
+  <node id="960407209" version="1" timestamp="2010-10-22T15:46:43Z" lat="60.5236515" lon="26.9674652" />
+  <node id="960407213" version="2" timestamp="2019-01-23T19:21:13Z" lat="60.5325855" lon="26.9666687" />
+  <node id="960407214" version="1" timestamp="2010-10-22T15:46:43Z" lat="60.5341203" lon="26.9660488" />
+  <node id="960407216" version="1" timestamp="2010-10-22T15:46:43Z" lat="60.5307758" lon="26.9630834" />
+  <node id="960407225" version="1" timestamp="2010-10-22T15:46:43Z" lat="60.5253644" lon="26.9655163" />
+  <node id="960407228" version="1" timestamp="2010-10-22T15:46:43Z" lat="60.5316255" lon="26.9619321" />
+  <node id="960407231" version="2" timestamp="2016-04-25T16:25:34Z" lat="60.531326" lon="26.9662861">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="960407236" version="1" timestamp="2010-10-22T15:46:44Z" lat="60.5302145" lon="26.9637965" />
+  <node id="960407239" version="2" timestamp="2011-08-11T18:16:21Z" lat="60.53457" lon="26.9685544" />
+  <node id="960407241" version="1" timestamp="2010-10-22T15:46:44Z" lat="60.5265326" lon="26.9652278" />
+  <node id="960407256" version="1" timestamp="2010-10-22T15:46:44Z" lat="60.5245561" lon="26.9659327" />
+  <node id="960407257" version="1" timestamp="2010-10-22T15:46:44Z" lat="60.5303953" lon="26.969835" />
+  <node id="960407261" version="2" timestamp="2019-01-23T19:21:13Z" lat="60.533307" lon="26.9695513" />
+  <node id="960407267" version="1" timestamp="2010-10-22T15:46:45Z" lat="60.5349465" lon="26.9697192" />
+  <node id="960407274" version="2" timestamp="2019-01-23T19:21:13Z" lat="60.5327922" lon="26.9674447" />
+  <node id="960407282" version="2" timestamp="2012-07-01T14:50:51Z" lat="60.5270244" lon="26.9562799" />
+  <node id="960407286" version="2" timestamp="2015-08-04T14:45:17Z" lat="60.5311618" lon="26.9629324" />
+  <node id="960407291" version="1" timestamp="2010-10-22T15:46:45Z" lat="60.5337012" lon="26.9647897" />
+  <node id="968567785" version="1" timestamp="2010-10-29T10:25:45Z" lat="60.527235" lon="26.9328162" />
+  <node id="968567787" version="2" timestamp="2012-07-01T17:43:33Z" lat="60.5277213" lon="26.9374765" />
+  <node id="968567788" version="1" timestamp="2010-10-29T10:25:45Z" lat="60.5282987" lon="26.9331707" />
+  <node id="968567789" version="1" timestamp="2010-10-29T10:25:45Z" lat="60.5278104" lon="26.9319656" />
+  <node id="968567792" version="2" timestamp="2015-09-09T10:40:22Z" lat="60.5272368" lon="26.9347183" />
+  <node id="968567798" version="1" timestamp="2010-10-29T10:25:46Z" lat="60.5276826" lon="26.9340748" />
+  <node id="983348823" version="3" timestamp="2011-08-11T18:16:21Z" lat="60.5345974" lon="26.9422845" />
+  <node id="983348846" version="2" timestamp="2011-08-11T18:16:21Z" lat="60.5353025" lon="26.9411414" />
+  <node id="983348859" version="2" timestamp="2011-08-11T18:16:21Z" lat="60.5358976" lon="26.9658018" />
+  <node id="983348896" version="3" timestamp="2016-04-25T16:25:35Z" lat="60.537225" lon="26.9366506">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="983348917" version="2" timestamp="2011-08-11T18:16:21Z" lat="60.5357959" lon="26.9403636" />
+  <node id="983348954" version="2" timestamp="2011-08-11T18:16:21Z" lat="60.5346242" lon="26.9393599" />
+  <node id="983348981" version="1" timestamp="2010-11-09T13:06:09Z" lat="60.5369676" lon="26.9683294" />
+  <node id="983348993" version="2" timestamp="2011-07-17T18:29:45Z" lat="60.5376394" lon="26.9693097" />
+  <node id="983348999" version="2" timestamp="2011-08-11T18:16:21Z" lat="60.5352867" lon="26.9391104" />
+  <node id="983349009" version="3" timestamp="2016-04-25T16:25:35Z" lat="60.5360792" lon="26.9379088">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="983349024" version="2" timestamp="2011-08-11T18:16:21Z" lat="60.5364432" lon="26.9393645" />
+  <node id="983349045" version="2" timestamp="2011-08-11T18:16:22Z" lat="60.5361608" lon="26.9666498" />
+  <node id="983349050" version="2" timestamp="2011-07-17T18:29:46Z" lat="60.5379342" lon="26.9683602" />
+  <node id="984600391" version="2" timestamp="2012-07-01T17:43:33Z" lat="60.5201329" lon="26.9323432" />
+  <node id="984600393" version="3" timestamp="2012-08-23T19:43:00Z" lat="60.5203472" lon="26.932198">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="1028402154" version="1" timestamp="2010-12-08T18:51:16Z" lat="60.5258992" lon="26.9308737" />
+  <node id="1076840357" version="3" timestamp="2017-05-07T18:30:02Z" lat="60.5280031" lon="26.9560125" />
+  <node id="1076840404" version="3" timestamp="2017-05-07T18:30:02Z" lat="60.5280761" lon="26.9557713" />
+  <node id="1076840432" version="1" timestamp="2011-01-01T12:27:42Z" lat="60.5265417" lon="26.9610005" />
+  <node id="1076840826" version="4" timestamp="2011-08-11T18:16:12Z" lat="60.5379116" lon="26.962056" />
+  <node id="1076840996" version="1" timestamp="2011-01-01T12:27:55Z" lat="60.5289639" lon="26.965445" />
+  <node id="1076841024" version="1" timestamp="2011-01-01T12:27:56Z" lat="60.5267527" lon="26.9668337" />
+  <node id="1124866941" version="1" timestamp="2011-01-28T14:13:51Z" lat="60.5299609" lon="26.9581176" />
+  <node id="1324225776" version="1" timestamp="2011-06-13T20:00:46Z" lat="60.5347768" lon="26.9590206">
+    <tag k="name" v="Otsonkallio" />
+    <tag k="amenity" v="kindergarten" />
+  </node>
+  <node id="1324225781" version="2" timestamp="2011-08-11T18:16:13Z" lat="60.5363312" lon="26.9635849" />
+  <node id="1364702612" version="1" timestamp="2011-07-17T16:58:59Z" lat="60.520181" lon="26.944307" />
+  <node id="1364702614" version="1" timestamp="2011-07-17T16:58:59Z" lat="60.5202575" lon="26.9455771" />
+  <node id="1364702615" version="1" timestamp="2011-07-17T16:58:59Z" lat="60.5202641" lon="26.9443113" />
+  <node id="1364702619" version="1" timestamp="2011-07-17T16:58:59Z" lat="60.5205376" lon="26.9493567" />
+  <node id="1364702621" version="1" timestamp="2011-07-17T16:58:59Z" lat="60.5206371" lon="26.945755" />
+  <node id="1364702623" version="1" timestamp="2011-07-17T16:58:59Z" lat="60.5210451" lon="26.9457691" />
+  <node id="1364702624" version="1" timestamp="2011-07-17T16:58:59Z" lat="60.5212501" lon="26.9457047" />
+  <node id="1364702625" version="1" timestamp="2011-07-17T16:58:59Z" lat="60.5214997" lon="26.9455937" />
+  <node id="1364702627" version="1" timestamp="2011-07-17T16:58:59Z" lat="60.5216559" lon="26.9467745" />
+  <node id="1364702628" version="1" timestamp="2011-07-17T16:58:59Z" lat="60.5220097" lon="26.9454955" />
+  <node id="1364702630" version="1" timestamp="2011-07-17T16:58:59Z" lat="60.5221704" lon="26.9455505" />
+  <node id="1364702637" version="1" timestamp="2011-07-17T16:59:00Z" lat="60.5223414" lon="26.9450733" />
+  <node id="1364702638" version="1" timestamp="2011-07-17T16:59:00Z" lat="60.5224012" lon="26.9450414" />
+  <node id="1364702639" version="1" timestamp="2011-07-17T16:59:00Z" lat="60.5225013" lon="26.9459011" />
+  <node id="1364702640" version="3" timestamp="2013-09-10T15:51:35Z" lat="60.52259" lon="26.9471696" />
+  <node id="1364702641" version="1" timestamp="2011-07-17T16:59:00Z" lat="60.5227149" lon="26.9462618" />
+  <node id="1364749543" version="1" timestamp="2011-07-17T18:01:26Z" lat="60.5211749" lon="26.9475137" />
+  <node id="1364749544" version="2" timestamp="2017-05-07T18:30:02Z" lat="60.5214019" lon="26.9510708" />
+  <node id="1364749545" version="1" timestamp="2011-07-17T18:01:26Z" lat="60.5214176" lon="26.951314" />
+  <node id="1364749547" version="1" timestamp="2011-07-17T18:01:26Z" lat="60.5214853" lon="26.9479355" />
+  <node id="1364749548" version="1" timestamp="2011-07-17T18:01:26Z" lat="60.5219627" lon="26.9511912" />
+  <node id="1364749549" version="1" timestamp="2011-07-17T18:01:26Z" lat="60.5219862" lon="26.9487887" />
+  <node id="1364749550" version="1" timestamp="2011-07-17T18:01:26Z" lat="60.5222459" lon="26.9507847" />
+  <node id="1364749551" version="1" timestamp="2011-07-17T18:01:26Z" lat="60.5222692" lon="26.9497003" />
+  <node id="1364749552" version="1" timestamp="2011-07-17T18:01:26Z" lat="60.5223181" lon="26.950075" />
+  <node id="1364765716" version="1" timestamp="2011-07-17T18:29:35Z" lat="60.5336961" lon="26.9571235" />
+  <node id="1364765717" version="1" timestamp="2011-07-17T18:29:35Z" lat="60.5396949" lon="26.9686819" />
+  <node id="1364765719" version="1" timestamp="2011-07-17T18:29:35Z" lat="60.5399365" lon="26.9688317" />
+  <node id="1395204724" version="1" timestamp="2011-08-11T18:15:47Z" lat="60.5340989" lon="26.9462007" />
+  <node id="1395204731" version="1" timestamp="2011-08-11T18:15:48Z" lat="60.5366056" lon="26.9389404" />
+  <node id="1395204732" version="1" timestamp="2011-08-11T18:15:48Z" lat="60.536825" lon="26.9578215" />
+  <node id="1395204733" version="1" timestamp="2011-08-11T18:15:48Z" lat="60.5368864" lon="26.9557047" />
+  <node id="1517568542" version="1" timestamp="2011-11-26T10:57:25Z" lat="60.5295951" lon="26.9308121" />
+  <node id="1517568672" version="1" timestamp="2011-11-26T10:57:29Z" lat="60.5293194" lon="26.9313702" />
+  <node id="1517568778" version="1" timestamp="2011-11-26T10:57:33Z" lat="60.5311393" lon="26.9319361" />
+  <node id="1517568823" version="1" timestamp="2011-11-26T10:57:35Z" lat="60.5289109" lon="26.9321974" />
+  <node id="1517568827" version="1" timestamp="2011-11-26T10:57:35Z" lat="60.531064" lon="26.9309671" />
+  <node id="1517640604" version="2" timestamp="2012-08-23T19:42:59Z" lat="60.5208051" lon="26.9374926">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="1517640652" version="4" timestamp="2013-09-10T15:51:35Z" lat="60.5202303" lon="26.9523268">
+    <tag k="highway" v="crossing" />
+    <tag k="crossing" v="uncontrolled" />
+  </node>
+  <node id="1517641222" version="2" timestamp="2012-08-23T19:43:00Z" lat="60.5212922" lon="26.9370393">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="1517641324" version="2" timestamp="2012-08-23T19:43:00Z" lat="60.5203334" lon="26.9379683">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="1517641420" version="3" timestamp="2012-08-23T19:43:00Z" lat="60.5220182" lon="26.9363943">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="1808874680" version="3" timestamp="2013-09-10T15:51:35Z" lat="60.5208728" lon="26.9500621">
+    <tag k="highway" v="crossing" />
+    <tag k="crossing" v="uncontrolled" />
+  </node>
+  <node id="1809105047" version="1" timestamp="2012-07-01T17:43:26Z" lat="60.5230085" lon="26.9388683" />
+  <node id="1809105049" version="1" timestamp="2012-07-01T17:43:26Z" lat="60.5230112" lon="26.9390369" />
+  <node id="1809105051" version="1" timestamp="2012-07-01T17:43:26Z" lat="60.5230727" lon="26.9386778" />
+  <node id="1809105053" version="1" timestamp="2012-07-01T17:43:26Z" lat="60.5242883" lon="26.9424974" />
+  <node id="1809105055" version="1" timestamp="2012-07-01T17:43:26Z" lat="60.5245185" lon="26.942258" />
+  <node id="1809105057" version="1" timestamp="2012-07-01T17:43:26Z" lat="60.5257621" lon="26.9415278" />
+  <node id="1809105059" version="1" timestamp="2012-07-01T17:43:26Z" lat="60.5260146" lon="26.9453751" />
+  <node id="1809105061" version="1" timestamp="2012-07-01T17:43:26Z" lat="60.526096" lon="26.9457806" />
+  <node id="1809105063" version="1" timestamp="2012-07-01T17:43:26Z" lat="60.526285" lon="26.9465276" />
+  <node id="1809105065" version="1" timestamp="2012-07-01T17:43:26Z" lat="60.526411" lon="26.9469224" />
+  <node id="1809105071" version="1" timestamp="2012-07-01T17:43:26Z" lat="60.5267576" lon="26.9477334" />
+  <node id="1809105072" version="1" timestamp="2012-07-01T17:43:26Z" lat="60.5268354" lon="26.9395002" />
+  <node id="1809105084" version="1" timestamp="2012-07-01T17:43:27Z" lat="60.5269492" lon="26.9481122" />
+  <node id="1809105087" version="1" timestamp="2012-07-01T17:43:27Z" lat="60.527074" lon="26.9388423" />
+  <node id="1809105091" version="1" timestamp="2012-07-01T17:43:27Z" lat="60.5273484" lon="26.9380767" />
+  <node id="1809105092" version="1" timestamp="2012-07-01T17:43:27Z" lat="60.5274266" lon="26.9488" />
+  <node id="1809105093" version="1" timestamp="2012-07-01T17:43:27Z" lat="60.5274847" lon="26.9377881" />
+  <node id="1809105095" version="1" timestamp="2012-07-01T17:43:27Z" lat="60.5276651" lon="26.9490347" />
+  <node id="1809105098" version="1" timestamp="2012-07-01T17:43:27Z" lat="60.5281364" lon="26.9544505" />
+  <node id="1809105099" version="1" timestamp="2012-07-01T17:43:27Z" lat="60.528939" lon="26.9500312" />
+  <node id="1809105100" version="1" timestamp="2012-07-01T17:43:27Z" lat="60.5293535" lon="26.9504544" />
+  <node id="1809105101" version="1" timestamp="2012-07-01T17:43:27Z" lat="60.5295315" lon="26.9506776" />
+  <node id="1809105102" version="1" timestamp="2012-07-01T17:43:27Z" lat="60.5299195" lon="26.9513739" />
+  <node id="1879809910" version="1" timestamp="2012-08-23T19:42:50Z" lat="60.5203619" lon="26.9381113" />
+  <node id="1879809914" version="1" timestamp="2012-08-23T19:42:50Z" lat="60.5204008" lon="26.9357163" />
+  <node id="1879809947" version="2" timestamp="2017-05-07T18:30:02Z" lat="60.5207077" lon="26.9337891" />
+  <node id="1879809950" version="1" timestamp="2012-08-23T19:42:51Z" lat="60.5208437" lon="26.9376621" />
+  <node id="1879809955" version="1" timestamp="2012-08-23T19:42:51Z" lat="60.5208937" lon="26.9352515" />
+  <node id="1879809958" version="2" timestamp="2017-05-07T18:30:02Z" lat="60.5210284" lon="26.9351245" />
+  <node id="1879809963" version="1" timestamp="2012-08-23T19:42:51Z" lat="60.5213267" lon="26.9372119" />
+  <node id="1899009348" version="2" timestamp="2013-09-10T15:51:35Z" lat="60.5227132" lon="26.9465072">
+    <tag k="highway" v="crossing" />
+    <tag k="crossing" v="uncontrolled" />
+  </node>
+  <node id="1899009356" version="1" timestamp="2012-09-04T20:27:21Z" lat="60.5227692" lon="26.9463645">
+    <tag k="highway" v="crossing" />
+    <tag k="crossing" v="uncontrolled" />
+  </node>
+  <node id="2288359946" version="1" timestamp="2013-05-01T18:58:56Z" lat="60.5204665" lon="26.9401169" />
+  <node id="2288359947" version="1" timestamp="2013-05-01T18:58:56Z" lat="60.5206406" lon="26.9410385" />
+  <node id="2316810212" version="1" timestamp="2013-05-23T08:43:29Z" lat="60.5239746" lon="26.94936" />
+  <node id="2316810227" version="1" timestamp="2013-05-23T08:43:29Z" lat="60.5240511" lon="26.9493819" />
+  <node id="2316810264" version="1" timestamp="2013-05-23T08:43:30Z" lat="60.5244692" lon="26.9490396" />
+  <node id="2316810330" version="1" timestamp="2013-05-23T08:43:31Z" lat="60.5252911" lon="26.9466287" />
+  <node id="2316826862" version="1" timestamp="2013-05-23T09:07:51Z" lat="60.5233635" lon="26.9452555">
+    <tag k="bicycle" v="yes" />
+    <tag k="highway" v="crossing" />
+    <tag k="crossing" v="uncontrolled" />
+  </node>
+  <node id="2316826864" version="2" timestamp="2013-09-10T15:51:35Z" lat="60.5235774" lon="26.9455173">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="2316826870" version="1" timestamp="2013-05-23T09:07:51Z" lat="60.5238781" lon="26.9465901" />
+  <node id="2316826881" version="1" timestamp="2013-05-23T09:07:51Z" lat="60.5246453" lon="26.9455828" />
+  <node id="2316826887" version="1" timestamp="2013-05-23T09:07:51Z" lat="60.5252457" lon="26.9450593" />
+  <node id="2316826892" version="1" timestamp="2013-05-23T09:07:52Z" lat="60.5255204" lon="26.9417076" />
+  <node id="2316826894" version="1" timestamp="2013-05-23T09:07:52Z" lat="60.5255687" lon="26.9447923" />
+  <node id="2316826895" version="1" timestamp="2013-05-23T09:07:52Z" lat="60.525606" lon="26.9447615" />
+  <node id="2316826897" version="1" timestamp="2013-05-23T09:07:52Z" lat="60.5256936" lon="26.9419479" />
+  <node id="2316826899" version="1" timestamp="2013-05-23T09:07:52Z" lat="60.5257163" lon="26.9422538" />
+  <node id="2316826900" version="1" timestamp="2013-05-23T09:07:52Z" lat="60.5257585" lon="26.9428712">
+    <tag k="bicycle" v="yes" />
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="2316826913" version="1" timestamp="2013-05-23T09:07:52Z" lat="60.5259616" lon="26.9429477">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="2316826926" version="1" timestamp="2013-05-23T09:07:53Z" lat="60.5271448" lon="26.9564859" />
+  <node id="2316826945" version="1" timestamp="2013-05-23T09:07:53Z" lat="60.5302012" lon="26.9516686">
+    <tag k="highway" v="crossing" />
+    <tag k="crossing" v="uncontrolled" />
+  </node>
+  <node id="2316826946" version="1" timestamp="2013-05-23T09:07:53Z" lat="60.5302371" lon="26.9528868" />
+  <node id="2316826947" version="1" timestamp="2013-05-23T09:07:53Z" lat="60.530242" lon="26.9530012" />
+  <node id="2453037387" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.523151" lon="26.9461528" />
+  <node id="2453037388" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5210889" lon="26.9504665" />
+  <node id="2453037389" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5202542" lon="26.9526464" />
+  <node id="2453037393" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5227624" lon="26.9466035" />
+  <node id="2453037394" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5228269" lon="26.9464879" />
+  <node id="2453037395" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5237441" lon="26.945086" />
+  <node id="2453037396" version="2" timestamp="2016-04-25T16:25:36Z" lat="60.5235264" lon="26.945369">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="2453037397" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5234405" lon="26.9454871" />
+  <node id="2453037398" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5231074" lon="26.9460065" />
+  <node id="2453037399" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5222621" lon="26.9476857" />
+  <node id="2453037400" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5226013" lon="26.9469385" />
+  <node id="2453037401" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5209316" lon="26.9504935" />
+  <node id="2453037402" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5204539" lon="26.9514178" />
+  <node id="2453037403" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5200787" lon="26.9520803" />
+  <node id="2453037406" version="2" timestamp="2016-04-25T16:25:36Z" lat="60.5201578" lon="26.9524294">
+    <tag k="highway" v="crossing" />
+    <tag k="crossing" v="uncontrolled" />
+  </node>
+  <node id="2453037407" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5200954" lon="26.9522528" />
+  <node id="2453037408" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5212026" lon="26.9500043" />
+  <node id="2453037409" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.520742" lon="26.9498464" />
+  <node id="2453037410" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5210244" lon="26.9503202" />
+  <node id="2453037411" version="2" timestamp="2016-04-25T16:25:36Z" lat="60.5208193" lon="26.9501649">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="2453037413" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5218053" lon="26.9489144" />
+  <node id="2453037414" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5217579" lon="26.9488412" />
+  <node id="2453037415" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5226165" lon="26.9464301" />
+  <node id="2453037416" version="2" timestamp="2016-04-25T16:25:36Z" lat="60.5226372" lon="26.9465654">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="2453037417" version="1" timestamp="2013-09-10T15:51:33Z" lat="60.5226373" lon="26.9467036" />
+  <node id="3350088176" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5360462" lon="26.9615267" />
+  <node id="3350088177" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5361623" lon="26.9620604" />
+  <node id="3350088178" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5364822" lon="26.9611137" />
+  <node id="3350088179" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5366143" lon="26.9616716" />
+  <node id="3350088180" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5370104" lon="26.9606135" />
+  <node id="3350088181" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5371446" lon="26.9611768" />
+  <node id="3350088182" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5377557" lon="26.9592155" />
+  <node id="3350088183" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.537896" lon="26.9597679" />
+  <node id="3350088184" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5380164" lon="26.9602758" />
+  <node id="3350088185" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5382555" lon="26.9587207" />
+  <node id="3350088186" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.538392" lon="26.9592918" />
+  <node id="3350088187" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5385119" lon="26.9598075" />
+  <node id="3350088188" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5387639" lon="26.9582612" />
+  <node id="3350088189" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5388927" lon="26.958811" />
+  <node id="3350088190" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5390117" lon="26.959348" />
+  <node id="3350088191" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5393265" lon="26.9606904" />
+  <node id="3350088192" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5394419" lon="26.9612125" />
+  <node id="3350088293" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5389508" lon="26.961778" />
+  <node id="3350088294" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5379346" lon="26.9538633" />
+  <node id="3350088295" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5381468" lon="26.9548328" />
+  <node id="3350088296" version="1" timestamp="2015-02-14T14:52:15Z" lat="60.5380077" lon="26.9549741" />
+  <node id="3350088297" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5371339" lon="26.9546455" />
+  <node id="3350088298" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5372732" lon="26.9552215" />
+  <node id="3350088299" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5365057" lon="26.9575949" />
+  <node id="3350088300" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.536371" lon="26.9570153" />
+  <node id="3350088301" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5358711" lon="26.957519" />
+  <node id="3350088302" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5359942" lon="26.9580466" />
+  <node id="3350088303" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5336568" lon="26.9400659" />
+  <node id="3350088304" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5339034" lon="26.9397475" />
+  <node id="3350088305" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5339686" lon="26.9395443" />
+  <node id="3350088306" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5339947" lon="26.9393322" />
+  <node id="3350088307" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5339817" lon="26.9375385" />
+  <node id="3350088308" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5337365" lon="26.9464286" />
+  <node id="3350088309" version="2" timestamp="2016-04-25T16:25:35Z" lat="60.5338339" lon="26.9469313">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="3350088310" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5330893" lon="26.9470376" />
+  <node id="3350088311" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5332036" lon="26.9475852" />
+  <node id="3350088312" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5324008" lon="26.9476855" />
+  <node id="3350088313" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5325516" lon="26.9482214" />
+  <node id="3350088314" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5339425" lon="26.9487781" />
+  <node id="3350088315" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5337991" lon="26.9487692" />
+  <node id="3350088316" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5335557" lon="26.9489725" />
+  <node id="3350088317" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5330316" lon="26.9503147" />
+  <node id="3350088318" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5329124" lon="26.9497589" />
+  <node id="3350088319" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.534667" lon="26.948499" />
+  <node id="3350088320" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5345641" lon="26.9479563" />
+  <node id="3350088321" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5310753" lon="26.9302538" />
+  <node id="3350088322" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5317387" lon="26.9300631" />
+  <node id="3350088323" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5318561" lon="26.93039" />
+  <node id="3350088324" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.532043" lon="26.9306109" />
+  <node id="3350088325" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5322734" lon="26.9307346" />
+  <node id="3350088326" version="1" timestamp="2015-02-14T14:52:16Z" lat="60.5324994" lon="26.9307788" />
+  <node id="3350088354" version="1" timestamp="2015-02-14T14:52:17Z" lat="60.5308405" lon="26.9539504" />
+  <node id="3350088355" version="1" timestamp="2015-02-14T14:52:17Z" lat="60.5310667" lon="26.9544767" />
+  <node id="3350088356" version="1" timestamp="2015-02-14T14:52:17Z" lat="60.5313623" lon="26.9549892" />
+  <node id="3350088357" version="1" timestamp="2015-02-14T14:52:17Z" lat="60.5315275" lon="26.9554929" />
+  <node id="3350088358" version="1" timestamp="2015-02-14T14:52:17Z" lat="60.5317492" lon="26.9563677" />
+  <node id="3350088359" version="1" timestamp="2015-02-14T14:52:17Z" lat="60.5317362" lon="26.9566681" />
+  <node id="3350088360" version="1" timestamp="2015-02-14T14:52:17Z" lat="60.5316318" lon="26.9570392" />
+  <node id="3350088493" version="1" timestamp="2015-02-14T14:52:17Z" lat="60.5277828" lon="26.9573288" />
+  <node id="3350088494" version="1" timestamp="2015-02-14T14:52:17Z" lat="60.527459" lon="26.9584087">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="3350088495" version="1" timestamp="2015-02-14T14:52:17Z" lat="60.5294583" lon="26.9346224" />
+  <node id="3350088496" version="1" timestamp="2015-02-14T14:52:17Z" lat="60.5283019" lon="26.9366282" />
+  <node id="3350088497" version="1" timestamp="2015-02-14T14:52:17Z" lat="60.5280106" lon="26.9370965" />
+  <node id="3375193795" version="1" timestamp="2015-02-27T18:17:19Z" lat="60.5374354" lon="26.9625021" />
+  <node id="3375193796" version="1" timestamp="2015-02-27T18:17:19Z" lat="60.5375776" lon="26.9630631" />
+  <node id="3680679871" version="1" timestamp="2015-08-04T14:46:22Z" lat="60.5318809" lon="26.9599771" />
+  <node id="3680679872" version="2" timestamp="2015-08-04T14:46:54Z" lat="60.5319311" lon="26.9598068" />
+  <node id="3680679873" version="1" timestamp="2015-08-04T14:46:22Z" lat="60.5329771" lon="26.9557932" />
+  <node id="3680679874" version="1" timestamp="2015-08-04T14:46:22Z" lat="60.5328362" lon="26.9564956" />
+  <node id="3680679875" version="1" timestamp="2015-08-04T14:46:22Z" lat="60.5327254" lon="26.9569838" />
+  <node id="3680679876" version="1" timestamp="2015-08-04T14:46:22Z" lat="60.5325635" lon="26.957598" />
+  <node id="3680679877" version="2" timestamp="2015-08-04T14:58:25Z" lat="60.532414" lon="26.9580996">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="3680680744" version="1" timestamp="2015-08-04T14:46:54Z" lat="60.5319583" lon="26.9598981" />
+  <node id="3680680745" version="1" timestamp="2015-08-04T14:46:54Z" lat="60.5319517" lon="26.9598544" />
+  <node id="3680684542" version="1" timestamp="2015-08-04T14:45:16Z" lat="60.5319527" lon="26.9600439" />
+  <node id="3680684543" version="1" timestamp="2015-08-04T14:45:16Z" lat="60.5315606" lon="26.9615139" />
+  <node id="3680684544" version="1" timestamp="2015-08-04T14:45:16Z" lat="60.5333308" lon="26.9562199" />
+  <node id="3680684545" version="1" timestamp="2015-08-04T14:45:16Z" lat="60.5329799" lon="26.9562623" />
+  <node id="3680684546" version="1" timestamp="2015-08-04T14:45:16Z" lat="60.5328973" lon="26.9566654" />
+  <node id="3680684547" version="2" timestamp="2015-08-04T14:46:22Z" lat="60.5314883" lon="26.9614228" />
+  <node id="3680684548" version="1" timestamp="2015-08-04T14:45:16Z" lat="60.5323243" lon="26.9597609" />
+  <node id="3680684549" version="1" timestamp="2015-08-04T14:45:16Z" lat="60.5323062" lon="26.9595018" />
+  <node id="3680684550" version="1" timestamp="2015-08-04T14:45:16Z" lat="60.5314495" lon="26.9615954" />
+  <node id="3680684919" version="2" timestamp="2016-04-25T16:25:34Z" lat="60.5358566" lon="26.9511018">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="3680684985" version="1" timestamp="2015-08-04T14:53:05Z" lat="60.5242104" lon="26.9492782" />
+  <node id="3680689338" version="1" timestamp="2015-08-04T14:48:12Z" lat="60.5330444" lon="26.9554321" />
+  <node id="3680689341" version="2" timestamp="2015-08-04T14:58:05Z" lat="60.5320055" lon="26.9595439">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="3680689342" version="2" timestamp="2015-08-04T14:58:05Z" lat="60.5320744" lon="26.9596086">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="3680689350" version="1" timestamp="2015-08-04T14:48:12Z" lat="60.5323111" lon="26.9597135" />
+  <node id="3680689351" version="1" timestamp="2015-08-04T14:48:12Z" lat="60.5331714" lon="26.9546824" />
+  <node id="3680691399" version="1" timestamp="2015-08-04T14:55:27Z" lat="60.5317671" lon="26.9596342" />
+  <node id="3680691402" version="1" timestamp="2015-08-04T14:55:27Z" lat="60.531657" lon="26.9595183" />
+  <node id="3680691839" version="1" timestamp="2015-08-04T14:49:47Z" lat="60.5388479" lon="26.9478319" />
+  <node id="3680697597" version="2" timestamp="2015-08-04T14:58:25Z" lat="60.5324801" lon="26.9581786">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="3680697598" version="2" timestamp="2015-08-04T14:58:25Z" lat="60.5324861" lon="26.958459">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="3680697599" version="1" timestamp="2015-08-04T14:58:05Z" lat="60.5318814" lon="26.9597545">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="3680698731" version="1" timestamp="2015-08-04T14:54:24Z" lat="60.5280463" lon="26.9565654" />
+  <node id="3680703802" version="1" timestamp="2015-08-04T15:02:36Z" lat="60.5311949" lon="26.9629782" />
+  <node id="3680708675" version="1" timestamp="2015-08-04T15:02:06Z" lat="60.5276161" lon="26.9660067" />
+  <node id="3680708676" version="1" timestamp="2015-08-04T15:02:06Z" lat="60.5305948" lon="26.9641533" />
+  <node id="3680708677" version="1" timestamp="2015-08-04T15:02:06Z" lat="60.53003" lon="26.9649365" />
+  <node id="3680708678" version="1" timestamp="2015-08-04T15:02:06Z" lat="60.5307532" lon="26.9638583" />
+  <node id="3680708679" version="1" timestamp="2015-08-04T15:02:06Z" lat="60.5291776" lon="26.9655015" />
+  <node id="3680708680" version="1" timestamp="2015-08-04T15:02:06Z" lat="60.5298638" lon="26.9650975" />
+  <node id="3680708681" version="1" timestamp="2015-08-04T15:02:06Z" lat="60.5281622" lon="26.9656661" />
+  <node id="3680708682" version="1" timestamp="2015-08-04T15:02:06Z" lat="60.5281721" lon="26.9656607" />
+  <node id="3680708683" version="1" timestamp="2015-08-04T15:02:06Z" lat="60.5257263" lon="26.9680613" />
+  <node id="3680708684" version="1" timestamp="2015-08-04T15:02:06Z" lat="60.5289764" lon="26.9655323" />
+  <node id="3680708685" version="1" timestamp="2015-08-04T15:02:06Z" lat="60.5278765" lon="26.9658217" />
+  <node id="3680708686" version="1" timestamp="2015-08-04T15:02:06Z" lat="60.5265198" lon="26.9672915" />
+  <node id="3680708687" version="1" timestamp="2015-08-04T15:02:06Z" lat="60.5274445" lon="26.966173" />
+  <node id="3680708688" version="1" timestamp="2015-08-04T15:02:06Z" lat="60.5304285" lon="26.9644269" />
+  <node id="3680708689" version="1" timestamp="2015-08-04T15:02:06Z" lat="60.5309722" lon="26.9633648" />
+  <node id="3680708690" version="1" timestamp="2015-08-04T15:02:06Z" lat="60.5296738" lon="26.9652369" />
+  <node id="3680708691" version="1" timestamp="2015-08-04T15:02:06Z" lat="60.5284756" lon="26.9656017" />
+  <node id="3680708692" version="1" timestamp="2015-08-04T15:02:06Z" lat="60.5302887" lon="26.9646361" />
+  <node id="3684588189" version="1" timestamp="2015-08-06T19:53:57Z" lat="60.5220694" lon="26.964083" />
+  <node id="3684588190" version="1" timestamp="2015-08-06T19:53:57Z" lat="60.5215731" lon="26.9618299" />
+  <node id="3684588191" version="1" timestamp="2015-08-06T19:53:57Z" lat="60.5211719" lon="26.9613364" />
+  <node id="3684588192" version="1" timestamp="2015-08-06T19:53:57Z" lat="60.5221222" lon="26.9656923" />
+  <node id="3684588193" version="1" timestamp="2015-08-06T19:53:57Z" lat="60.5209631" lon="26.9611874" />
+  <node id="3684588194" version="1" timestamp="2015-08-06T19:53:57Z" lat="60.5219967" lon="26.9665681" />
+  <node id="3684588195" version="1" timestamp="2015-08-06T19:53:57Z" lat="60.5218371" lon="26.9629457" />
+  <node id="3684588196" version="1" timestamp="2015-08-06T19:53:57Z" lat="60.5214253" lon="26.9615725" />
+  <node id="3684588197" version="1" timestamp="2015-08-06T19:53:57Z" lat="60.5221433" lon="26.9651559" />
+  <node id="3684592325" version="1" timestamp="2015-08-06T19:53:02Z" lat="60.5215309" lon="26.9658854" />
+  <node id="3684592326" version="1" timestamp="2015-08-06T19:53:02Z" lat="60.522175" lon="26.9667438" />
+  <node id="3684592327" version="1" timestamp="2015-08-06T19:53:02Z" lat="60.5216259" lon="26.9661644" />
+  <node id="3684592328" version="1" timestamp="2015-08-06T19:53:02Z" lat="60.5209396" lon="26.9613793" />
+  <node id="3684592329" version="1" timestamp="2015-08-06T19:53:02Z" lat="60.5228296" lon="26.9685891" />
+  <node id="3684592330" version="1" timestamp="2015-08-06T19:53:02Z" lat="60.5209712" lon="26.9628599" />
+  <node id="3684592331" version="1" timestamp="2015-08-06T19:53:02Z" lat="60.5228402" lon="26.9695118" />
+  <node id="3684592332" version="1" timestamp="2015-08-06T19:53:02Z" lat="60.5228613" lon="26.96816" />
+  <node id="3684592333" version="1" timestamp="2015-08-06T19:53:02Z" lat="60.5227874" lon="26.9690397" />
+  <node id="3684592334" version="1" timestamp="2015-08-06T19:53:02Z" lat="60.5227874" lon="26.9677952" />
+  <node id="3684592335" version="1" timestamp="2015-08-06T19:53:02Z" lat="60.5203092" lon="26.9565009" />
+  <node id="3684592336" version="1" timestamp="2015-08-06T19:53:02Z" lat="60.5210451" lon="26.9591048" />
+  <node id="3684592337" version="1" timestamp="2015-08-06T19:53:02Z" lat="60.5218265" lon="26.9664004" />
+  <node id="3684592338" version="1" timestamp="2015-08-06T19:53:02Z" lat="60.5209396" lon="26.9623878" />
+  <node id="3684592340" version="1" timestamp="2015-08-06T19:53:02Z" lat="60.5226713" lon="26.9672587" />
+  <node id="3684592341" version="1" timestamp="2015-08-06T19:53:05Z" lat="60.5205672" lon="26.9562032" />
+  <node id="3684592343" version="1" timestamp="2015-08-06T19:53:05Z" lat="60.5209184" lon="26.9619372" />
+  <node id="3684592344" version="1" timestamp="2015-08-06T19:53:05Z" lat="60.5225234" lon="26.9670871" />
+  <node id="3684592345" version="1" timestamp="2015-08-06T19:53:05Z" lat="60.5212986" lon="26.9648555" />
+  <node id="3684592346" version="1" timestamp="2015-08-06T19:53:05Z" lat="60.5236509" lon="26.9698272" />
+  <node id="3684592347" version="1" timestamp="2015-08-06T19:53:05Z" lat="60.5211191" lon="26.9596198" />
+  <node id="3684592348" version="2" timestamp="2017-05-07T18:30:02Z" lat="60.5209174" lon="26.9558226" />
+  <node id="3684592349" version="1" timestamp="2015-08-06T19:53:05Z" lat="60.5211117" lon="26.9599771" />
+  <node id="3684593437" version="1" timestamp="2015-08-06T19:54:08Z" lat="60.5200948" lon="26.9609716" />
+  <node id="3684593438" version="1" timestamp="2015-08-06T19:54:08Z" lat="60.5210623" lon="26.9603795" />
+  <node id="3730253789" version="1" timestamp="2015-09-05T07:29:14Z" lat="60.531174" lon="26.9449787" />
+  <node id="3730253790" version="1" timestamp="2015-09-05T07:29:14Z" lat="60.5309512" lon="26.9447078" />
+  <node id="3730253791" version="1" timestamp="2015-09-05T07:29:14Z" lat="60.5308593" lon="26.9446564" />
+  <node id="3730253792" version="1" timestamp="2015-09-05T07:29:14Z" lat="60.5294303" lon="26.9466505" />
+  <node id="3730253793" version="1" timestamp="2015-09-05T07:29:14Z" lat="60.529382" lon="26.9466785" />
+  <node id="3730253794" version="1" timestamp="2015-09-05T07:29:14Z" lat="60.5293384" lon="26.9466692" />
+  <node id="3730253795" version="1" timestamp="2015-09-05T07:29:14Z" lat="60.5292993" lon="26.9465991" />
+  <node id="3730253796" version="1" timestamp="2015-09-05T07:29:14Z" lat="60.5283451" lon="26.9410757" />
+  <node id="3735779546" version="1" timestamp="2015-09-09T09:50:11Z" lat="60.5225795" lon="26.9309391" />
+  <node id="3735779698" version="1" timestamp="2015-09-09T09:50:13Z" lat="60.5233691" lon="26.9328585" />
+  <node id="3735779708" version="1" timestamp="2015-09-09T09:50:13Z" lat="60.5235569" lon="26.9327537" />
+  <node id="3735779717" version="1" timestamp="2015-09-09T09:50:13Z" lat="60.5240016" lon="26.9324871" />
+  <node id="3735779722" version="1" timestamp="2015-09-09T09:50:13Z" lat="60.5231594" lon="26.9329084" />
+  <node id="3735779723" version="1" timestamp="2015-09-09T09:50:13Z" lat="60.5230993" lon="26.932862" />
+  <node id="3735779797" version="1" timestamp="2015-09-09T09:50:14Z" lat="60.5225246" lon="26.930721" />
+  <node id="3735779819" version="1" timestamp="2015-09-09T09:50:15Z" lat="60.5229406" lon="26.9323445" />
+  <node id="3735835812" version="1" timestamp="2015-09-09T10:40:06Z" lat="60.5237661" lon="26.9381395" />
+  <node id="3735837926" version="1" timestamp="2015-09-09T10:40:06Z" lat="60.5243125" lon="26.9386569" />
+  <node id="3735837927" version="1" timestamp="2015-09-09T10:40:06Z" lat="60.5245695" lon="26.9407143" />
+  <node id="3735837928" version="1" timestamp="2015-09-09T10:40:06Z" lat="60.5244122" lon="26.9398137" />
+  <node id="3735837957" version="1" timestamp="2015-09-09T10:40:07Z" lat="60.5231082" lon="26.9397341" />
+  <node id="3735837959" version="1" timestamp="2015-09-09T10:40:07Z" lat="60.5231854" lon="26.9402893" />
+  <node id="3735837961" version="1" timestamp="2015-09-09T10:40:07Z" lat="60.5233002" lon="26.9411148" />
+  <node id="3735962719" version="1" timestamp="2015-09-09T12:06:10Z" lat="60.5226074" lon="26.9453416">
+    <tag k="amenity" v="car_wash" />
+  </node>
+  <node id="3735963133" version="1" timestamp="2015-09-09T12:06:12Z" lat="60.5263927" lon="26.9426109" />
+  <node id="3735963229" version="1" timestamp="2015-09-09T12:06:14Z" lat="60.5204411" lon="26.9491372" />
+  <node id="4147107304" version="1" timestamp="2016-04-25T16:25:14Z" lat="60.5270461" lon="26.9590114" />
+  <node id="4147107305" version="1" timestamp="2016-04-25T16:25:14Z" lat="60.5267022" lon="26.9586008" />
+  <node id="4147107334" version="1" timestamp="2016-04-25T16:25:14Z" lat="60.5357094" lon="26.9524603" />
+  <node id="4147107335" version="1" timestamp="2016-04-25T16:25:14Z" lat="60.5359633" lon="26.9536332">
+    <tag k="highway" v="turning_circle" />
+  </node>
+  <node id="4147107341" version="1" timestamp="2016-04-25T16:25:15Z" lat="60.5364274" lon="26.9517702" />
+  <node id="4147107361" version="1" timestamp="2016-04-25T16:25:15Z" lat="60.5379607" lon="26.9504636" />
+  <node id="4147107363" version="1" timestamp="2016-04-25T16:25:15Z" lat="60.5362612" lon="26.9519311" />
+  <node id="4147107366" version="1" timestamp="2016-04-25T16:25:15Z" lat="60.5366261" lon="26.9515778" />
+  <node id="4147107696" version="1" timestamp="2016-04-25T16:25:15Z" lat="60.5349392" lon="26.9471551" />
+  <node id="4147107712" version="1" timestamp="2016-04-25T16:25:16Z" lat="60.5362669" lon="26.9433938" />
+  <node id="4147107713" version="1" timestamp="2016-04-25T16:25:16Z" lat="60.5356847" lon="26.9439581" />
+  <node id="4147107714" version="1" timestamp="2016-04-25T16:25:16Z" lat="60.5352295" lon="26.944399">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="4147108139" version="1" timestamp="2016-04-25T16:25:19Z" lat="60.5300169" lon="26.9522342" />
+  <node id="4147108143" version="1" timestamp="2016-04-25T16:25:19Z" lat="60.5308991" lon="26.9538703">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="4147108145" version="1" timestamp="2016-04-25T16:25:19Z" lat="60.5308769" lon="26.9540351" />
+  <node id="4147108146" version="1" timestamp="2016-04-25T16:25:19Z" lat="60.5308099" lon="26.9534609">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="4147108174" version="1" timestamp="2016-04-25T16:25:20Z" lat="60.5342288" lon="26.9600347">
+    <tag k="highway" v="crossing" />
+  </node>
+  <node id="4147108178" version="1" timestamp="2016-04-25T16:25:20Z" lat="60.5341833" lon="26.9597859" />
+  <node id="4147108403" version="1" timestamp="2016-04-25T16:25:22Z" lat="60.5340642" lon="26.9409776" />
+  <node id="4147108404" version="1" timestamp="2016-04-25T16:25:22Z" lat="60.5334937" lon="26.9415168" />
+  <node id="4147108405" version="1" timestamp="2016-04-25T16:25:22Z" lat="60.5329186" lon="26.9420763" />
+  <node id="4147108406" version="1" timestamp="2016-04-25T16:25:22Z" lat="60.5323613" lon="26.9426072" />
+  <node id="4147108407" version="1" timestamp="2016-04-25T16:25:22Z" lat="60.5317587" lon="26.9431669" />
+  <node id="4840304341" version="1" timestamp="2017-05-07T18:29:51Z" lat="60.5205874" lon="26.9511733" />
+  <node id="4840304342" version="1" timestamp="2017-05-07T18:29:51Z" lat="60.5214748" lon="26.9511446" />
+  <node id="4840304343" version="1" timestamp="2017-05-07T18:29:51Z" lat="60.5216848" lon="26.9512525" />
+  <node id="4840304344" version="1" timestamp="2017-05-07T18:29:51Z" lat="60.5218824" lon="26.9512368" />
+  <node id="4840304345" version="1" timestamp="2017-05-07T18:29:51Z" lat="60.5212784" lon="26.9508665" />
+  <node id="4840304346" version="1" timestamp="2017-05-07T18:29:51Z" lat="60.5236502" lon="26.9606211" />
+  <node id="4840304347" version="1" timestamp="2017-05-07T18:29:51Z" lat="60.5236635" lon="26.960485" />
+  <node id="4840304348" version="1" timestamp="2017-05-07T18:29:51Z" lat="60.5214075" lon="26.956833" />
+  <node id="4840304353" version="1" timestamp="2017-05-07T18:29:51Z" lat="60.5212796" lon="26.9372558" />
+  <node id="4891814772" version="1" timestamp="2017-06-02T11:00:28Z" lat="60.5227333" lon="26.9397799">
+    <tag k="amenity" v="parking" />
+    <tag k="name" v="Malminki" />
+  </node>
+  <node id="4891821852" version="1" timestamp="2017-06-02T11:03:38Z" lat="60.5227465" lon="26.9383369">
+    <tag k="amenity" v="training" />
+    <tag k="name" v="Ekami malminki" />
+  </node>
+  <node id="5626413917" version="1" timestamp="2018-05-18T10:49:06Z" lat="60.5344011" lon="26.946473" />
+  <node id="5626413929" version="1" timestamp="2018-05-18T10:49:06Z" lat="60.5353493" lon="26.9457329" />
+  <node id="5626429910" version="1" timestamp="2018-05-18T10:58:16Z" lat="60.534547" lon="26.9697992" />
+  <node id="6230994074" version="1" timestamp="2019-01-23T19:15:56Z" lat="60.524029" lon="26.9693015" />
+  <node id="6231004020" version="1" timestamp="2019-01-23T19:21:13Z" lat="60.5333781" lon="26.9667281" />
+  <node id="6231004028" version="1" timestamp="2019-01-23T19:21:13Z" lat="60.5330995" lon="26.9696647" />
+  <node id="6231004029" version="1" timestamp="2019-01-23T19:21:13Z" lat="60.5331136" lon="26.9688454" />
+  <node id="6231004030" version="1" timestamp="2019-01-23T19:21:13Z" lat="60.5329494" lon="26.968193" />
+  <node id="6231004031" version="1" timestamp="2019-01-23T19:21:13Z" lat="60.5325463" lon="26.9665364" />
+  <node id="6231004032" version="1" timestamp="2019-01-23T19:21:13Z" lat="60.5324334" lon="26.9663123" />
+  <node id="6231004033" version="1" timestamp="2019-01-23T19:21:13Z" lat="60.5327002" lon="26.9670715" />
+  <node id="6231004034" version="1" timestamp="2019-01-23T19:21:13Z" lat="60.532648" lon="26.9668895" />
+  <node id="6231004037" version="1" timestamp="2019-01-23T19:21:13Z" lat="60.5347024" lon="26.9697681" />
+  <node id="6231004038" version="1" timestamp="2019-01-23T19:21:13Z" lat="60.534422" lon="26.9685741" />
+  <node id="6231004039" version="1" timestamp="2019-01-23T19:21:13Z" lat="60.5341253" lon="26.9673808" />
+  <node id="6231004040" version="1" timestamp="2019-01-23T19:21:13Z" lat="60.5338783" lon="26.9662703" />
+  <node id="6231004045" version="1" timestamp="2019-01-23T19:21:13Z" lat="60.5338182" lon="26.9650376" />
+  <way id="4732994" version="23" timestamp="2015-09-09T12:06:34Z">
+    <nd ref="36156596" />
+    <nd ref="2316826913" />
+    <nd ref="3735963133" />
+    <nd ref="277446336" />
+    <nd ref="3730253796" />
+    <nd ref="277446337" />
+    <nd ref="277446338" />
+    <nd ref="476002887" />
+    <nd ref="277446339" />
+    <nd ref="277446340" />
+    <nd ref="277446341" />
+    <tag k="ref" v="357" />
+    <tag k="name" v="Hurukselantie" />
+    <tag k="lanes" v="2" />
+    <tag k="highway" v="secondary" />
+    <tag k="name:fi" v="Hurukselantie" />
+    <tag k="surface" v="asphalt" />
+    <tag k="maxspeed" v="80" />
+  </way>
+  <way id="5184588" version="7" timestamp="2013-09-10T15:51:36Z">
+    <nd ref="36156592" />
+    <nd ref="1364702640" />
+    <nd ref="36156593" />
+    <nd ref="2453037387" />
+    <nd ref="475347451" />
+    <nd ref="2316826864" />
+    <nd ref="36156594" />
+    <nd ref="475347453" />
+    <tag k="ref" v="170" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="secondary" />
+  </way>
+  <way id="5184589" version="2" timestamp="2013-09-10T15:51:38Z">
+    <nd ref="2453037413" />
+    <nd ref="36156592" />
+    <tag k="ref" v="170" />
+    <tag k="layer" v="1" />
+    <tag k="bridge" v="yes" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="secondary" />
+  </way>
+  <way id="5184590" version="16" timestamp="2016-04-25T16:25:55Z">
+    <nd ref="36156596" />
+    <nd ref="876232699" />
+    <nd ref="36156602" />
+    <nd ref="1809105059" />
+    <nd ref="1809105061" />
+    <nd ref="36156603" />
+    <nd ref="1809105063" />
+    <nd ref="1809105065" />
+    <nd ref="36156604" />
+    <nd ref="1809105071" />
+    <nd ref="1809105084" />
+    <nd ref="36156605" />
+    <nd ref="1809105092" />
+    <nd ref="1809105095" />
+    <nd ref="36156606" />
+    <nd ref="1809105099" />
+    <nd ref="36156607" />
+    <nd ref="1809105100" />
+    <nd ref="1809105101" />
+    <nd ref="36156608" />
+    <nd ref="1809105102" />
+    <nd ref="749392287" />
+    <nd ref="36156609" />
+    <nd ref="876232691" />
+    <nd ref="4147108146" />
+    <nd ref="36156610" />
+    <nd ref="876232661" />
+    <nd ref="36156611" />
+    <nd ref="3680679873" />
+    <nd ref="475347460" />
+    <nd ref="36156612" />
+    <nd ref="3680684544" />
+    <nd ref="36156613" />
+    <nd ref="36156614" />
+    <nd ref="1364765716" />
+    <nd ref="4147108178" />
+    <nd ref="4147108174" />
+    <nd ref="36156615" />
+    <nd ref="36156616" />
+    <nd ref="476824100" />
+    <nd ref="36156617" />
+    <nd ref="983348859" />
+    <nd ref="983349050" />
+    <tag k="ref" v="170" />
+    <tag k="name" v="Ristikalliontie" />
+    <tag k="highway" v="secondary" />
+    <tag k="name:fi" v="Ristikalliontie" />
+  </way>
+  <way id="22731285" version="8" timestamp="2017-02-13T19:11:44Z">
+    <nd ref="3735779797" />
+    <nd ref="3735779546" />
+    <nd ref="3735779819" />
+    <nd ref="916936791" />
+    <nd ref="3735779723" />
+    <nd ref="3735779722" />
+    <nd ref="916936792" />
+    <nd ref="3735779698" />
+    <nd ref="916936796" />
+    <nd ref="3735779708" />
+    <nd ref="3735779717" />
+    <nd ref="916936798" />
+    <nd ref="916936800" />
+    <tag k="highway" v="residential" />
+    <tag k="name" v="Suntionkatu" />
+    <tag k="name:fi" v="Suntionkatu" />
+  </way>
+  <way id="25953701" version="7" timestamp="2013-09-10T15:51:37Z">
+    <nd ref="36156593" />
+    <nd ref="2453037394" />
+    <nd ref="1899009356" />
+    <nd ref="1364702641" />
+    <nd ref="1364702639" />
+    <nd ref="283139350" />
+    <nd ref="1364702630" />
+    <nd ref="1364702628" />
+    <nd ref="283139351" />
+    <nd ref="283139352" />
+    <nd ref="1364702625" />
+    <nd ref="1364702624" />
+    <nd ref="1364702623" />
+    <nd ref="283139353" />
+    <nd ref="1364702621" />
+    <nd ref="283139355" />
+    <nd ref="1364702614" />
+    <nd ref="894396076" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="motorway_link" />
+  </way>
+  <way id="33042885" version="8" timestamp="2017-05-07T18:30:11Z">
+    <nd ref="372554304" />
+    <nd ref="527715619" />
+    <nd ref="372554276" />
+    <nd ref="372554260" />
+    <nd ref="372554252" />
+    <nd ref="372554245" />
+    <nd ref="527715613" />
+    <nd ref="372554210" />
+    <nd ref="1124866941" />
+    <nd ref="372554181" />
+    <nd ref="1076840404" />
+    <nd ref="372554149" />
+    <nd ref="372554136" />
+    <nd ref="372554129" />
+    <nd ref="372554093" />
+    <nd ref="372554075" />
+    <nd ref="372554069" />
+    <nd ref="372554061" />
+    <tag k="highway" v="motorway" />
+    <tag k="int_ref" v="E 18" />
+    <tag k="oneway" v="yes" />
+    <tag k="ref" v="7;15" />
+  </way>
+  <way id="33042891" version="5" timestamp="2011-07-17T18:01:31Z">
+    <nd ref="372554346" />
+    <nd ref="372554366" />
+    <nd ref="1364749545" />
+    <nd ref="476824116" />
+    <nd ref="372554340" />
+    <nd ref="476824112" />
+    <nd ref="476824114" />
+    <nd ref="372554358" />
+    <nd ref="476824110" />
+    <nd ref="476824108" />
+    <nd ref="372554320" />
+    <nd ref="476824106" />
+    <nd ref="372554351" />
+    <nd ref="372554142" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="motorway_link" />
+  </way>
+  <way id="37952515" version="8" timestamp="2017-05-07T18:30:11Z">
+    <nd ref="372554078" />
+    <nd ref="372554087" />
+    <nd ref="372554142" />
+    <nd ref="372554160" />
+    <nd ref="1076840357" />
+    <nd ref="372554172" />
+    <nd ref="246991" />
+    <nd ref="372554225" />
+    <nd ref="527715616" />
+    <nd ref="246993" />
+    <nd ref="372554239" />
+    <nd ref="246994" />
+    <nd ref="372554289" />
+    <nd ref="372554297" />
+    <tag k="highway" v="motorway" />
+    <tag k="int_ref" v="E 18" />
+    <tag k="oneway" v="yes" />
+    <tag k="ref" v="7;15" />
+  </way>
+  <way id="39653008" version="8" timestamp="2014-02-18T23:16:21Z">
+    <nd ref="372554346" />
+    <nd ref="2453037388" />
+    <nd ref="2453037413" />
+    <tag k="ref" v="170" />
+    <tag k="name" v="Tapiontie" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="secondary" />
+    <tag k="name:fi" v="Tapiontie" />
+  </way>
+  <way id="39653010" version="12" timestamp="2017-05-07T18:30:12Z">
+    <nd ref="2453037403" />
+    <nd ref="2453037407" />
+    <nd ref="2453037406" />
+    <nd ref="2453037389" />
+    <tag k="highway" v="tertiary" />
+    <tag k="lanes" v="1" />
+    <tag k="name" v="Muuralankuja" />
+    <tag k="name:fi" v="Muuralankuja" />
+    <tag k="oneway" v="yes" />
+    <tag k="surface" v="paved" />
+  </way>
+  <way id="39699602" version="5" timestamp="2016-04-25T16:25:45Z">
+    <nd ref="773542121" />
+    <nd ref="4147107361" />
+    <nd ref="773542253" />
+    <nd ref="491053961" />
+    <nd ref="4147107366" />
+    <nd ref="4147107341" />
+    <nd ref="4147107363" />
+    <nd ref="491053958" />
+    <tag k="name" v="Pahkakatu" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Pahkakatu" />
+  </way>
+  <way id="39699603" version="6" timestamp="2013-09-10T15:51:36Z">
+    <nd ref="372554093" />
+    <nd ref="476002910" />
+    <nd ref="476002908" />
+    <nd ref="476002907" />
+    <nd ref="476002906" />
+    <nd ref="476002905" />
+    <nd ref="476002904" />
+    <nd ref="1364702627" />
+    <nd ref="476002903" />
+    <nd ref="476002901" />
+    <nd ref="476002900" />
+    <nd ref="476002899" />
+    <nd ref="476002898" />
+    <nd ref="476002897" />
+    <nd ref="476002896" />
+    <nd ref="476002892" />
+    <nd ref="476002891" />
+    <nd ref="476002890" />
+    <nd ref="476002889" />
+    <nd ref="1899009348" />
+    <nd ref="2453037393" />
+    <nd ref="36156593" />
+    <tag k="lanes" v="1" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="motorway_link" />
+  </way>
+  <way id="39699618" version="3" timestamp="2015-08-04T14:45:18Z">
+    <nd ref="372554172" />
+    <nd ref="476003110" />
+    <nd ref="476824103" />
+    <nd ref="476003111" />
+    <nd ref="476003113" />
+    <nd ref="476003114" />
+    <nd ref="3680684550" />
+    <nd ref="476003115" />
+    <tag k="lanes" v="1" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="motorway_link" />
+  </way>
+  <way id="39855163" version="5" timestamp="2015-08-04T14:58:06Z">
+    <nd ref="477826225" />
+    <nd ref="3680680744" />
+    <nd ref="3680680745" />
+    <nd ref="3680679872" />
+    <nd ref="3680697599" />
+    <nd ref="3680691399" />
+    <tag k="lanes" v="1" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="motorway_link" />
+  </way>
+  <way id="40503284" version="8" timestamp="2015-02-14T14:52:24Z">
+    <nd ref="773542137" />
+    <nd ref="3350088191" />
+    <nd ref="876278256" />
+    <nd ref="1076840826" />
+    <nd ref="773542265" />
+    <tag k="name" v="Rauduskatu" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Rauduskatu" />
+  </way>
+  <way id="41417076" version="12" timestamp="2015-08-04T14:58:06Z">
+    <nd ref="3680684542" />
+    <nd ref="477826225" />
+    <nd ref="3680689342" />
+    <nd ref="876278368" />
+    <nd ref="3680697597" />
+    <nd ref="476003116" />
+    <nd ref="3680684546" />
+    <nd ref="3680684545" />
+    <nd ref="475347460" />
+    <tag k="name" v="Hiidenkirnuntie" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="tertiary" />
+    <tag k="name:fi" v="Hiidenkirnuntie" />
+    <tag k="surface" v="paved" />
+  </way>
+  <way id="42464489" version="7" timestamp="2019-01-23T19:21:14Z">
+    <nd ref="960407261" />
+    <nd ref="6231004029" />
+    <nd ref="6231004030" />
+    <nd ref="530181763" />
+    <nd ref="960407274" />
+    <nd ref="6231004033" />
+    <nd ref="6231004034" />
+    <tag k="highway" v="residential" />
+    <tag k="name" v="Sinikellontie" />
+    <tag k="name:fi" v="Sinikellontie" />
+  </way>
+  <way id="42464491" version="5" timestamp="2019-01-23T19:21:14Z">
+    <nd ref="960407194" />
+    <nd ref="6231004039" />
+    <nd ref="960407106" />
+    <nd ref="530181763" />
+    <nd ref="530181759" />
+    <tag k="highway" v="residential" />
+    <tag k="name" v="Vanamotie" />
+    <tag k="name:fi" v="Vanamotie" />
+  </way>
+  <way id="42464492" version="3" timestamp="2016-04-25T16:25:45Z">
+    <nd ref="530181759" />
+    <nd ref="530181760" />
+    <nd ref="530181761" />
+    <nd ref="530181758" />
+    <tag k="name" v="Kalamiehentie" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Kalamiehentie" />
+  </way>
+  <way id="44191056" version="13" timestamp="2017-05-07T18:30:12Z">
+    <nd ref="3735963229" />
+    <nd ref="1364702619" />
+    <nd ref="2453037409" />
+    <tag k="highway" v="tertiary" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="Tikankatu" />
+    <tag k="name:fi" v="Tikankatu" />
+  </way>
+  <way id="60273405" version="3" timestamp="2014-02-18T00:13:51Z">
+    <nd ref="749392360" />
+    <nd ref="749392413" />
+    <nd ref="749392264" />
+    <nd ref="749392295" />
+    <nd ref="876278304" />
+    <nd ref="876278020" />
+    <nd ref="876278112" />
+    <nd ref="749392396" />
+    <tag k="name" v="Sopulinkatu" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Sopulinkatu" />
+  </way>
+  <way id="60273406" version="3" timestamp="2014-02-18T00:13:01Z">
+    <nd ref="749392295" />
+    <nd ref="749392341" />
+    <nd ref="749392396" />
+    <nd ref="749392258" />
+    <nd ref="2316826945" />
+    <nd ref="749392287" />
+    <tag k="name" v="Hillerinkatu" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Hillerinkatu" />
+  </way>
+  <way id="62061732" version="4" timestamp="2016-04-25T16:25:46Z">
+    <nd ref="773542245" />
+    <nd ref="4147107712" />
+    <nd ref="773542112" />
+    <nd ref="773542148" />
+    <nd ref="4147107713" />
+    <nd ref="773542188" />
+    <tag k="name" v="Vesurinkatu" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Vesurinkatu" />
+  </way>
+  <way id="62061735" version="5" timestamp="2014-02-18T00:13:53Z">
+    <nd ref="36156596" />
+    <nd ref="2316826900" />
+    <nd ref="2316826899" />
+    <nd ref="2316826897" />
+    <nd ref="773542103" />
+    <tag k="name" v="Suurniitynkatu" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Suurniitynkatu" />
+  </way>
+  <way id="62061739" version="4" timestamp="2016-04-25T16:26:00Z">
+    <nd ref="773542221" />
+    <nd ref="773542254" />
+    <nd ref="773542152" />
+    <tag k="name" v="Kangaskatu" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Kangaskatu" />
+  </way>
+  <way id="62061745" version="2" timestamp="2014-02-18T00:13:18Z">
+    <nd ref="773542139" />
+    <nd ref="773542175" />
+    <nd ref="773542221" />
+    <tag k="name" v="Korpikatu" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Korpikatu" />
+  </way>
+  <way id="62061747" version="12" timestamp="2018-05-18T10:49:07Z">
+    <nd ref="773542265" />
+    <nd ref="876278286" />
+    <nd ref="876278250" />
+    <nd ref="773542195" />
+    <nd ref="1395204732" />
+    <nd ref="876277975" />
+    <nd ref="1395204733" />
+    <nd ref="773542154" />
+    <nd ref="876278343" />
+    <nd ref="491053958" />
+    <nd ref="3680684919" />
+    <nd ref="476002840" />
+    <nd ref="876232590" />
+    <nd ref="876232666" />
+    <nd ref="476002842" />
+    <nd ref="4147107696" />
+    <nd ref="476002845" />
+    <nd ref="476002847" />
+    <nd ref="5626413929" />
+    <nd ref="476002849" />
+    <nd ref="476002852" />
+    <tag k="highway" v="tertiary" />
+    <tag k="name" v="Lautakatontie" />
+    <tag k="name:fi" v="Lautakatontie" />
+  </way>
+  <way id="62061748" version="2" timestamp="2014-02-18T00:13:16Z">
+    <nd ref="476002858" />
+    <nd ref="773542188" />
+    <nd ref="773542245" />
+    <tag k="name" v="Kirveenkatu" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Kirveenkatu" />
+  </way>
+  <way id="62061754" version="3" timestamp="2014-02-18T00:13:31Z">
+    <nd ref="476002879" />
+    <nd ref="773542153" />
+    <tag k="name" v="Nummisuutarinkatu" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Nummisuutarinkatu" />
+  </way>
+  <way id="62061759" version="4" timestamp="2016-04-25T16:26:04Z">
+    <nd ref="476002870" />
+    <nd ref="773542118" />
+    <nd ref="4147108404" />
+    <nd ref="773542153" />
+    <tag k="name" v="Eskonkatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Eskonkatu" />
+  </way>
+  <way id="62061764" version="4" timestamp="2015-09-09T10:40:23Z">
+    <nd ref="773542142" />
+    <nd ref="3735837927" />
+    <nd ref="3735837928" />
+    <nd ref="773542182" />
+    <nd ref="3735837926" />
+    <nd ref="773542227" />
+    <nd ref="3735835812" />
+    <nd ref="773542123" />
+    <nd ref="1809105051" />
+    <nd ref="773542156" />
+    <nd ref="1809105047" />
+    <nd ref="1809105049" />
+    <nd ref="3735837957" />
+    <nd ref="3735837959" />
+    <nd ref="3735837961" />
+    <nd ref="773542199" />
+    <tag k="name" v="Malminginkatu" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Malminginkatu" />
+  </way>
+  <way id="67815750" version="6" timestamp="2015-09-05T07:29:30Z">
+    <nd ref="818778962" />
+    <nd ref="818778963" />
+    <nd ref="1028402154" />
+    <nd ref="818778964" />
+    <tag k="name" v="Alahovintie" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Alahovintie" />
+  </way>
+  <way id="74057306" version="2" timestamp="2014-02-18T00:12:58Z">
+    <nd ref="876232593" />
+    <nd ref="876232670" />
+    <tag k="name" v="Haapamäenkatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Haapamäenkatu" />
+  </way>
+  <way id="74057307" version="3" timestamp="2014-02-18T00:13:27Z">
+    <nd ref="876232699" />
+    <nd ref="2316826895" />
+    <nd ref="2316826894" />
+    <nd ref="2316826887" />
+    <nd ref="876232664" />
+    <nd ref="2316826881" />
+    <nd ref="876232566" />
+    <nd ref="2316826870" />
+    <nd ref="876232623" />
+    <tag k="name" v="Marttilankatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Marttilankatu" />
+  </way>
+  <way id="74057308" version="2" timestamp="2014-02-18T00:12:58Z">
+    <nd ref="876232574" />
+    <nd ref="876232593" />
+    <nd ref="876232559" />
+    <nd ref="876232618" />
+    <tag k="name" v="Haapamäenkatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Haapamäenkatu" />
+  </way>
+  <way id="74057309" version="4" timestamp="2015-08-04T14:53:05Z">
+    <nd ref="876232664" />
+    <nd ref="876232723" />
+    <nd ref="876232650" />
+    <nd ref="2316810330" />
+    <nd ref="876232678" />
+    <nd ref="876232734" />
+    <nd ref="2316810264" />
+    <nd ref="3680684985" />
+    <nd ref="876232597" />
+    <nd ref="2316810227" />
+    <nd ref="2316810212" />
+    <nd ref="876232641" />
+    <nd ref="876232579" />
+    <tag k="name" v="Karhinkatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Karhinkatu" />
+  </way>
+  <way id="74057311" version="4" timestamp="2016-04-25T16:25:55Z">
+    <nd ref="876232661" />
+    <nd ref="4147108143" />
+    <nd ref="3350088354" />
+    <nd ref="876232682" />
+    <tag k="name" v="Majavankatu" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Majavankatu" />
+  </way>
+  <way id="74057312" version="2" timestamp="2014-02-18T00:13:21Z">
+    <nd ref="773542245" />
+    <nd ref="876232638" />
+    <tag k="name" v="Kuokankatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Kuokankatu" />
+  </way>
+  <way id="74057314" version="3" timestamp="2015-02-14T14:52:25Z">
+    <nd ref="876232613" />
+    <nd ref="3350088317" />
+    <nd ref="876232740" />
+    <nd ref="876232689" />
+    <nd ref="3350088319" />
+    <nd ref="876232666" />
+    <nd ref="876232662" />
+    <tag k="name" v="Haarakatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Haarakatu" />
+  </way>
+  <way id="74057315" version="4" timestamp="2016-04-25T16:25:55Z">
+    <nd ref="876232616" />
+    <nd ref="4147108139" />
+    <nd ref="2316826946" />
+    <nd ref="2316826947" />
+    <nd ref="876232665" />
+    <nd ref="876232707" />
+    <tag k="name" v="Piisaminkatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Piisaminkatu" />
+  </way>
+  <way id="74057316" version="2" timestamp="2014-02-18T00:13:31Z">
+    <nd ref="876232596" />
+    <nd ref="876232583" />
+    <nd ref="876232568" />
+    <nd ref="773542153" />
+    <tag k="name" v="Nummisuutarinkatu" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Nummisuutarinkatu" />
+  </way>
+  <way id="74057318" version="2" timestamp="2014-02-18T00:13:19Z">
+    <nd ref="876232723" />
+    <nd ref="876232575" />
+    <nd ref="876232641" />
+    <tag k="name" v="Kosselinkatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Kosselinkatu" />
+  </way>
+  <way id="74057319" version="2" timestamp="2014-02-18T00:13:30Z">
+    <nd ref="876232590" />
+    <nd ref="876232648" />
+    <nd ref="876232695" />
+    <nd ref="876232726" />
+    <tag k="name" v="Naavakatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Naavakatu" />
+  </way>
+  <way id="74057321" version="5" timestamp="2017-05-07T18:30:11Z">
+    <nd ref="372554078" />
+    <nd ref="1364749543" />
+    <nd ref="1364749547" />
+    <nd ref="876232585" />
+    <nd ref="1364749549" />
+    <nd ref="876232647" />
+    <nd ref="1364749551" />
+    <nd ref="1364749552" />
+    <nd ref="876232693" />
+    <nd ref="1364749550" />
+    <nd ref="876232725" />
+    <nd ref="1364749548" />
+    <nd ref="4840304344" />
+    <nd ref="876232620" />
+    <nd ref="4840304343" />
+    <nd ref="876232652" />
+    <tag k="highway" v="motorway_link" />
+    <tag k="oneway" v="yes" />
+    <tag k="source" v="kosmosnimki" />
+  </way>
+  <way id="74057323" version="3" timestamp="2016-04-25T16:26:05Z">
+    <nd ref="876232721" />
+    <nd ref="4147108407" />
+    <nd ref="876232596" />
+    <tag k="name" v="Jaanankatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Jaanankatu" />
+  </way>
+  <way id="74057324" version="3" timestamp="2016-04-25T16:26:05Z">
+    <nd ref="876232583" />
+    <nd ref="4147108406" />
+    <nd ref="876232646" />
+    <tag k="name" v="Topiaksenkatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Topiaksenkatu" />
+  </way>
+  <way id="74057325" version="3" timestamp="2014-02-18T00:13:34Z">
+    <nd ref="773542188" />
+    <nd ref="876232571" />
+    <tag k="name" v="Petkeleenkatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Petkeleenkatu" />
+  </way>
+  <way id="74057326" version="3" timestamp="2014-02-18T00:13:30Z">
+    <nd ref="749392287" />
+    <nd ref="876232616" />
+    <nd ref="1809105098" />
+    <nd ref="876232604" />
+    <tag k="name" v="Mäyränkatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Mäyränkatu" />
+  </way>
+  <way id="74057327" version="3" timestamp="2016-04-25T16:26:04Z">
+    <nd ref="876232568" />
+    <nd ref="4147108405" />
+    <nd ref="876232625" />
+    <tag k="name" v="Martankatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Martankatu" />
+  </way>
+  <way id="74057328" version="2" timestamp="2014-02-18T00:13:57Z">
+    <nd ref="876232701" />
+    <nd ref="876232645" />
+    <nd ref="876232672" />
+    <nd ref="876232590" />
+    <tag k="name" v="Tervaskatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Tervaskatu" />
+  </way>
+  <way id="74057330" version="5" timestamp="2018-05-18T10:49:07Z">
+    <nd ref="476002845" />
+    <nd ref="876232705" />
+    <nd ref="5626413917" />
+    <nd ref="1395204724" />
+    <nd ref="876232572" />
+    <nd ref="3350088308" />
+    <nd ref="3350088310" />
+    <nd ref="3350088312" />
+    <nd ref="876232630" />
+    <tag k="highway" v="residential" />
+    <tag k="name" v="Rosokatu" />
+    <tag k="name:fi" v="Rosokatu" />
+    <tag k="source" v="kosmosnimki" />
+  </way>
+  <way id="74060717" version="1" timestamp="2010-08-23T19:18:16Z">
+    <nd ref="876278083" />
+    <nd ref="876278228" />
+    <nd ref="876278309" />
+    <nd ref="876278028" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="74060719" version="3" timestamp="2015-02-14T14:52:24Z">
+    <nd ref="876278081" />
+    <nd ref="3350088189" />
+    <nd ref="3350088186" />
+    <nd ref="3350088183" />
+    <nd ref="876278286" />
+    <tag k="name" v="Norkkokatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Norkkokatu" />
+  </way>
+  <way id="74060721" version="3" timestamp="2015-02-14T14:52:24Z">
+    <nd ref="876278286" />
+    <nd ref="3350088180" />
+    <nd ref="3350088178" />
+    <nd ref="3350088176" />
+    <nd ref="876277979" />
+    <tag k="name" v="Loimukatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Loimukatu" />
+  </way>
+  <way id="74060723" version="3" timestamp="2015-02-14T14:52:25Z">
+    <nd ref="876278204" />
+    <nd ref="3350088294" />
+    <nd ref="3350088297" />
+    <nd ref="876278343" />
+    <tag k="name" v="Tuohikatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Tuohikatu" />
+  </way>
+  <way id="74060724" version="4" timestamp="2015-02-27T18:17:24Z">
+    <nd ref="773542265" />
+    <nd ref="3375193795" />
+    <nd ref="1324225781" />
+    <nd ref="876278087" />
+    <tag k="name" v="Riippakatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Riippakatu" />
+  </way>
+  <way id="74060726" version="2" timestamp="2014-02-18T00:14:09Z">
+    <nd ref="876278343" />
+    <nd ref="876278059" />
+    <tag k="name" v="Vihtakatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Vihtakatu" />
+  </way>
+  <way id="74060728" version="3" timestamp="2016-04-25T16:25:45Z">
+    <nd ref="491053958" />
+    <nd ref="4147107334" />
+    <nd ref="876278138" />
+    <nd ref="876278301" />
+    <tag k="name" v="Kääpäkatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Kääpäkatu" />
+  </way>
+  <way id="74060732" version="2" timestamp="2014-02-18T00:14:06Z">
+    <nd ref="876278250" />
+    <nd ref="876277982" />
+    <tag k="name" v="Urpukatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Urpukatu" />
+  </way>
+  <way id="74060733" version="3" timestamp="2014-02-18T00:13:36Z">
+    <nd ref="1364765719" />
+    <nd ref="1364765717" />
+    <nd ref="876278083" />
+    <nd ref="876278016" />
+    <tag k="name" v="Pulttikatu" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Pulttikatu" />
+  </way>
+  <way id="74060749" version="3" timestamp="2015-08-04T14:58:06Z">
+    <nd ref="876278368" />
+    <nd ref="3680697598" />
+    <nd ref="876278237" />
+    <nd ref="876278074" />
+    <tag k="name" v="Muurahaistie" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Muurahaistie" />
+  </way>
+  <way id="74060752" version="2" timestamp="2014-02-18T00:13:26Z">
+    <nd ref="876278356" />
+    <nd ref="876278031" />
+    <nd ref="876278316" />
+    <nd ref="876278206" />
+    <nd ref="876277975" />
+    <tag k="name" v="Mahlakatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Mahlakatu" />
+  </way>
+  <way id="74060755" version="3" timestamp="2015-02-14T14:52:25Z">
+    <nd ref="876277975" />
+    <nd ref="876278056" />
+    <nd ref="3350088299" />
+    <nd ref="3350088302" />
+    <nd ref="876278196" />
+    <tag k="name" v="Niveräkatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Niveräkatu" />
+  </way>
+  <way id="74060758" version="2" timestamp="2014-02-18T00:13:25Z">
+    <nd ref="749392264" />
+    <nd ref="876278238" />
+    <tag k="name" v="Lumikonkatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Lumikonkatu" />
+  </way>
+  <way id="74060761" version="4" timestamp="2015-08-04T14:48:13Z">
+    <nd ref="876278237" />
+    <nd ref="3680684549" />
+    <nd ref="876278381" />
+    <nd ref="3680689350" />
+    <nd ref="3680684548" />
+    <nd ref="876278040" />
+    <tag k="name" v="Mehiläistie" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Mehiläistie" />
+  </way>
+  <way id="75553142" version="3" timestamp="2014-02-18T23:14:25Z">
+    <nd ref="960407257" />
+    <nd ref="892203575" />
+    <nd ref="530181759" />
+    <tag k="name" v="Kalamiehentie" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Kalamiehentie" />
+  </way>
+  <way id="75553155" version="6" timestamp="2017-05-07T18:30:12Z">
+    <nd ref="892203638" />
+    <nd ref="1879809910" />
+    <nd ref="1879809950" />
+    <nd ref="4840304353" />
+    <nd ref="1879809963" />
+    <nd ref="892203639" />
+    <tag k="highway" v="residential" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="Aumakatu" />
+    <tag k="name:fi" v="Aumakatu" />
+  </way>
+  <way id="75553157" version="3" timestamp="2014-02-20T20:20:36Z">
+    <nd ref="892203644" />
+    <nd ref="1879809958" />
+    <nd ref="1879809955" />
+    <nd ref="1879809914" />
+    <tag k="name" v="Isännänraitti" />
+    <tag k="highway" v="living_street" />
+    <tag k="name:fi" v="Isännänraitti" />
+  </way>
+  <way id="75553162" version="3" timestamp="2014-02-20T20:21:58Z">
+    <nd ref="892203639" />
+    <nd ref="1517641420" />
+    <nd ref="892203644" />
+    <tag k="name" v="Sylvesterinraitti" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Sylvesterinraitti" />
+  </way>
+  <way id="75762385" version="3" timestamp="2014-02-18T00:13:18Z">
+    <nd ref="773542139" />
+    <nd ref="894396093" />
+    <nd ref="1364702615" />
+    <nd ref="1364702612" />
+    <nd ref="894396095" />
+    <tag k="name" v="Korpikatu" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Korpikatu" />
+  </way>
+  <way id="75762386" version="6" timestamp="2014-02-18T00:13:53Z">
+    <nd ref="894396089" />
+    <nd ref="2316826862" />
+    <nd ref="2453037397" />
+    <nd ref="475347451" />
+    <tag k="name" v="Suurniitynkatu" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Suurniitynkatu" />
+  </way>
+  <way id="80413038" version="3" timestamp="2016-04-25T16:25:42Z">
+    <nd ref="938364415" />
+    <nd ref="4147107305" />
+    <nd ref="938364483" />
+    <tag k="name" v="Lohentie" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Lohentie" />
+  </way>
+  <way id="80413041" version="3" timestamp="2014-02-18T23:16:18Z">
+    <nd ref="960378263" />
+    <nd ref="960378245" />
+    <nd ref="960378241" />
+    <nd ref="960378220" />
+    <nd ref="938364483" />
+    <nd ref="960378235" />
+    <nd ref="938364422" />
+    <nd ref="938364370" />
+    <nd ref="938364435" />
+    <tag k="name" v="Taimenentie" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Taimenentie" />
+  </way>
+  <way id="80413046" version="4" timestamp="2014-02-18T23:14:34Z">
+    <nd ref="960378221" />
+    <nd ref="960378233" />
+    <nd ref="960378217" />
+    <nd ref="1076840432" />
+    <nd ref="938364435" />
+    <nd ref="938364364" />
+    <tag k="name" v="Kiiskintie" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Kiiskintie" />
+  </way>
+  <way id="80413047" version="2" timestamp="2014-02-18T23:15:03Z">
+    <nd ref="938364364" />
+    <nd ref="938364450" />
+    <nd ref="938364389" />
+    <tag k="name" v="Lahnantie" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Lahnantie" />
+  </way>
+  <way id="80413049" version="7" timestamp="2015-08-04T15:02:06Z">
+    <nd ref="3680708684" />
+    <nd ref="1076840996" />
+    <nd ref="938364454" />
+    <nd ref="938364398" />
+    <nd ref="938364468" />
+    <nd ref="938364404" />
+    <nd ref="938364474" />
+    <nd ref="938364417" />
+    <nd ref="938364364" />
+    <nd ref="938364432" />
+    <nd ref="960407143" />
+    <nd ref="938364401" />
+    <nd ref="938364470" />
+    <nd ref="3350088493" />
+    <nd ref="938364415" />
+    <nd ref="2316826926" />
+    <nd ref="960407282" />
+    <tag k="name" v="Pilkkimiehentie" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Pilkkimiehentie" />
+  </way>
+  <way id="82515385" version="3" timestamp="2017-05-07T18:30:11Z">
+    <nd ref="960378235" />
+    <nd ref="960378224" />
+    <nd ref="4840304347" />
+    <nd ref="4840304346" />
+    <nd ref="960378233" />
+    <tag k="highway" v="residential" />
+    <tag k="name" v="Hailintie" />
+    <tag k="name:fi" v="Hailintie" />
+    <tag k="source" v="kosmosnimki" />
+  </way>
+  <way id="82522316" version="3" timestamp="2019-01-23T19:21:14Z">
+    <nd ref="960407257" />
+    <nd ref="6231004028" />
+    <nd ref="960407261" />
+    <tag k="highway" v="residential" />
+    <tag k="name" v="Saratie" />
+    <tag k="name:fi" v="Saratie" />
+  </way>
+  <way id="82522322" version="2" timestamp="2014-02-18T23:13:41Z">
+    <nd ref="938364401" />
+    <nd ref="960407216" />
+    <tag k="name" v="Ahvenentie" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Ahvenentie" />
+  </way>
+  <way id="82522328" version="3" timestamp="2015-08-04T15:02:07Z">
+    <nd ref="960407113" />
+    <nd ref="3680708681" />
+    <tag k="name" v="Visatie" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Visatie" />
+  </way>
+  <way id="82522330" version="2" timestamp="2014-02-18T23:14:41Z">
+    <nd ref="530181760" />
+    <nd ref="960407231" />
+    <tag k="name" v="Kortetie" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Kortetie" />
+  </way>
+  <way id="82522331" version="2" timestamp="2014-02-18T23:14:49Z">
+    <nd ref="960407143" />
+    <nd ref="960407236" />
+    <tag k="name" v="Kuhantie" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Kuhantie" />
+  </way>
+  <way id="82522334" version="3" timestamp="2015-08-04T15:02:36Z">
+    <nd ref="960407286" />
+    <nd ref="3680703802" />
+    <nd ref="960407141" />
+    <nd ref="960407177" />
+    <tag k="name" v="Saniaistie" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Saniaistie" />
+  </way>
+  <way id="82522341" version="4" timestamp="2019-01-23T19:21:14Z">
+    <nd ref="960407207" />
+    <nd ref="5626429910" />
+    <nd ref="6231004037" />
+    <nd ref="960407267" />
+    <nd ref="960407157" />
+    <tag k="highway" v="residential" />
+    <tag k="name" v="Hirvenkellonkatu" />
+    <tag k="name:fi" v="Hirvenkellonkatu" />
+  </way>
+  <way id="82522343" version="2" timestamp="2014-02-18T23:15:13Z">
+    <nd ref="960407114" />
+    <nd ref="960407195" />
+    <tag k="name" v="Maitikkatie" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Maitikkatie" />
+  </way>
+  <way id="82522345" version="2" timestamp="2014-02-18T23:16:09Z">
+    <nd ref="960378220" />
+    <nd ref="960407139" />
+    <tag k="name" v="Siiantie" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Siiantie" />
+  </way>
+  <way id="82522346" version="3" timestamp="2019-01-23T19:21:14Z">
+    <nd ref="960407261" />
+    <nd ref="960407145" />
+    <nd ref="6231004038" />
+    <nd ref="960407239" />
+    <nd ref="960407109" />
+    <tag k="highway" v="residential" />
+    <tag k="name" v="Harakankellonkatu" />
+    <tag k="name:fi" v="Harakankellonkatu" />
+  </way>
+  <way id="82522350" version="2" timestamp="2014-02-18T23:13:42Z">
+    <nd ref="960407155" />
+    <nd ref="960407140" />
+    <nd ref="960407225" />
+    <nd ref="960407241" />
+    <tag k="name" v="Ailakkitie" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Ailakkitie" />
+  </way>
+  <way id="82522355" version="3" timestamp="2019-01-23T19:21:13Z">
+    <nd ref="960407194" />
+    <nd ref="960407137" />
+    <nd ref="960407214" />
+    <nd ref="6231004040" />
+    <nd ref="6231004020" />
+    <nd ref="960407274" />
+    <tag k="highway" v="residential" />
+    <tag k="name" v="Yrttitie" />
+    <tag k="name:fi" v="Yrttitie" />
+  </way>
+  <way id="82522356" version="2" timestamp="2014-02-18T23:15:00Z">
+    <nd ref="960407175" />
+    <nd ref="960407256" />
+    <nd ref="960407128" />
+    <nd ref="960407209" />
+    <tag k="name" v="Kämmekkätie" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Kämmekkätie" />
+  </way>
+  <way id="82522357" version="3" timestamp="2014-02-18T23:16:20Z">
+    <nd ref="493621159" />
+    <nd ref="1076841024" />
+    <nd ref="960407155" />
+    <nd ref="960407241" />
+    <nd ref="960407111" />
+    <nd ref="960407189" />
+    <tag k="name" v="Talvikkitie" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Talvikkitie" />
+  </way>
+  <way id="82522360" version="3" timestamp="2019-01-23T19:21:14Z">
+    <nd ref="960407213" />
+    <nd ref="6231004031" />
+    <nd ref="6231004032" />
+    <nd ref="960407133" />
+    <nd ref="960407136" />
+    <nd ref="960407141" />
+    <nd ref="960407228" />
+    <nd ref="960407291" />
+    <nd ref="6231004045" />
+    <nd ref="960407181" />
+    <tag k="highway" v="residential" />
+    <tag k="name" v="Pensastie" />
+    <tag k="name:fi" v="Pensastie" />
+  </way>
+  <way id="83247381" version="5" timestamp="2014-02-18T00:13:53Z">
+    <nd ref="773542139" />
+    <nd ref="773542240" />
+    <nd ref="1364702637" />
+    <nd ref="1364702638" />
+    <nd ref="894396089" />
+    <nd ref="773542199" />
+    <nd ref="1809105053" />
+    <nd ref="1809105055" />
+    <nd ref="773542142" />
+    <nd ref="2316826892" />
+    <nd ref="773542103" />
+    <nd ref="1809105057" />
+    <nd ref="1809105072" />
+    <nd ref="1809105087" />
+    <nd ref="1809105091" />
+    <nd ref="1809105093" />
+    <nd ref="968567787" />
+    <tag k="name" v="Suurniitynkatu" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Suurniitynkatu" />
+  </way>
+  <way id="83247383" version="3" timestamp="2014-02-18T00:13:15Z">
+    <nd ref="1517568542" />
+    <nd ref="1517568672" />
+    <nd ref="1517568823" />
+    <nd ref="968567788" />
+    <nd ref="968567798" />
+    <nd ref="968567792" />
+    <nd ref="968567787" />
+    <tag k="name" v="Kihlinkatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Kihlinkatu" />
+  </way>
+  <way id="83247384" version="2" timestamp="2014-02-18T00:13:30Z">
+    <nd ref="968567798" />
+    <nd ref="968567785" />
+    <nd ref="968567789" />
+    <nd ref="968567788" />
+    <tag k="name" v="Niittykatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Niittykatu" />
+  </way>
+  <way id="84651901" version="2" timestamp="2014-02-18T00:14:09Z">
+    <nd ref="983348846" />
+    <nd ref="983348954" />
+    <tag k="name" v="Viikatteenkatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Viikatteenkatu" />
+  </way>
+  <way id="84651902" version="3" timestamp="2014-02-18T00:13:45Z">
+    <nd ref="983348823" />
+    <nd ref="983348846" />
+    <nd ref="983348917" />
+    <nd ref="983349024" />
+    <nd ref="1395204731" />
+    <nd ref="983348896" />
+    <tag k="name" v="Sahrankatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Sahrankatu" />
+  </way>
+  <way id="84651905" version="1" timestamp="2010-11-09T13:06:19Z">
+    <nd ref="983348993" />
+    <nd ref="983349050" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="84651918" version="3" timestamp="2015-02-27T18:17:25Z">
+    <nd ref="983349045" />
+    <nd ref="983348981" />
+    <nd ref="983348993" />
+    <tag k="name" v="Oravalantie" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Oravalantie" />
+  </way>
+  <way id="84651919" version="2" timestamp="2014-02-18T00:13:50Z">
+    <nd ref="983348917" />
+    <nd ref="983348999" />
+    <nd ref="983349009" />
+    <tag k="name" v="Sirpinkatu" />
+    <tag k="source" v="kosmosnimki" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Sirpinkatu" />
+  </way>
+  <way id="84790778" version="4" timestamp="2014-02-18T00:13:29Z">
+    <nd ref="984600391" />
+    <nd ref="984600393" />
+    <tag k="name" v="Mikkelinkatu" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Mikkelinkatu" />
+  </way>
+  <way id="172092288" version="3" timestamp="2015-02-14T14:52:26Z">
+    <nd ref="3350088321" />
+    <nd ref="773542247" />
+    <nd ref="1517568827" />
+    <nd ref="773542114" />
+    <nd ref="773542149" />
+    <nd ref="1517568778" />
+    <nd ref="938390016" />
+    <nd ref="773542259" />
+    <nd ref="773542129" />
+    <nd ref="938389871" />
+    <nd ref="938390090" />
+    <nd ref="773542165" />
+    <nd ref="938390072" />
+    <nd ref="773542208" />
+    <nd ref="938389857" />
+    <nd ref="476002887" />
+    <tag k="name" v="Virsumäentie" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Virsumäentie" />
+  </way>
+  <way id="172093298" version="3" timestamp="2016-04-25T16:25:49Z">
+    <nd ref="475347483" />
+    <nd ref="475347489" />
+    <tag k="name" v="Hiidenkirnuntie" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Hiidenkirnuntie" />
+    <tag k="surface" v="paved" />
+  </way>
+  <way id="172093308" version="3" timestamp="2016-04-25T16:25:48Z">
+    <nd ref="475347489" />
+    <nd ref="475347486" />
+    <nd ref="475347487" />
+    <nd ref="749392282" />
+    <nd ref="749392284" />
+    <tag k="name" v="Hiidenkirnuntie" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Hiidenkirnuntie" />
+    <tag k="surface" v="paved" />
+  </way>
+  <way id="172093341" version="5" timestamp="2016-04-25T16:25:47Z">
+    <nd ref="476002852" />
+    <nd ref="476002855" />
+    <nd ref="476002858" />
+    <nd ref="4147107714" />
+    <nd ref="476002869" />
+    <nd ref="476002870" />
+    <nd ref="476002871" />
+    <nd ref="983348823" />
+    <nd ref="476002875" />
+    <nd ref="476002876" />
+    <nd ref="4147108403" />
+    <nd ref="476002879" />
+    <nd ref="938390064" />
+    <nd ref="476002881" />
+    <nd ref="3350088303" />
+    <nd ref="476002882" />
+    <nd ref="476002883" />
+    <nd ref="876232574" />
+    <nd ref="476002884" />
+    <nd ref="938390084" />
+    <nd ref="476002886" />
+    <nd ref="476002887" />
+    <tag k="name" v="Lautakatontie" />
+    <tag k="highway" v="tertiary" />
+    <tag k="name:fi" v="Lautakatontie" />
+  </way>
+  <way id="172093343" version="8" timestamp="2018-08-14T15:26:59Z">
+    <nd ref="475347489" />
+    <nd ref="3680691839" />
+    <nd ref="475347494" />
+    <nd ref="475347495" />
+    <nd ref="475347497" />
+    <tag k="highway" v="residential" />
+    <tag k="name" v="Vanha Viipurintie" />
+    <tag k="name:fi" v="Vanha Viipurintie" />
+    <tag k="source" v="GPS/Survey" />
+  </way>
+  <way id="177565334" version="2" timestamp="2014-02-20T20:20:21Z">
+    <nd ref="1879809910" />
+    <nd ref="1517641324" />
+    <tag k="name" v="Emännänraitti" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Emännänraitti" />
+  </way>
+  <way id="177565338" version="2" timestamp="2014-02-20T20:20:38Z">
+    <nd ref="1879809958" />
+    <nd ref="1879809947" />
+    <tag k="name" v="Jalmarinraitti" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Jalmarinraitti" />
+  </way>
+  <way id="177565339" version="2" timestamp="2014-02-20T20:21:07Z">
+    <nd ref="1879809950" />
+    <nd ref="1517640604" />
+    <nd ref="1879809914" />
+    <tag k="name" v="Lennartinraitti" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Lennartinraitti" />
+  </way>
+  <way id="177565342" version="2" timestamp="2014-02-20T20:21:56Z">
+    <nd ref="1879809963" />
+    <nd ref="1517641222" />
+    <nd ref="1879809955" />
+    <tag k="name" v="Siirinraitti" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Siirinraitti" />
+  </way>
+  <way id="219697242" version="2" timestamp="2014-02-17T22:47:04Z">
+    <nd ref="773542152" />
+    <nd ref="2288359947" />
+    <nd ref="2288359946" />
+    <tag k="name" v="Ketokuja" />
+    <tag k="source" v="bing;survey" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Ketokuja" />
+  </way>
+  <way id="237396092" version="1" timestamp="2013-09-10T15:51:33Z">
+    <nd ref="475347453" />
+    <nd ref="475347452" />
+    <nd ref="475347454" />
+    <nd ref="36156595" />
+    <nd ref="475347457" />
+    <nd ref="475347456" />
+    <nd ref="475347455" />
+    <nd ref="36156596" />
+    <tag k="ref" v="170" />
+    <tag k="highway" v="secondary" />
+  </way>
+  <way id="237396094" version="6" timestamp="2017-05-07T18:30:12Z">
+    <nd ref="2453037389" />
+    <nd ref="493621171" />
+    <nd ref="3684592348" />
+    <nd ref="493621168" />
+    <nd ref="4840304348" />
+    <nd ref="493621166" />
+    <nd ref="960378263" />
+    <nd ref="960378221" />
+    <tag k="highway" v="tertiary" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="Muuralankuja" />
+    <tag k="name:fi" v="Muuralankuja" />
+    <tag k="surface" v="paved" />
+  </way>
+  <way id="237396096" version="4" timestamp="2017-05-07T18:30:12Z">
+    <nd ref="2453037389" />
+    <nd ref="1517640652" />
+    <nd ref="36156590" />
+    <nd ref="2453037403" />
+    <tag k="highway" v="tertiary" />
+    <tag k="lanes" v="1" />
+    <tag k="name" v="Muuralankuja" />
+    <tag k="name:fi" v="Muuralankuja" />
+    <tag k="oneway" v="yes" />
+    <tag k="surface" v="paved" />
+  </way>
+  <way id="237396097" version="2" timestamp="2014-02-18T00:13:57Z">
+    <nd ref="2453037388" />
+    <nd ref="2453037410" />
+    <tag k="name" v="Tikankatu" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="tertiary" />
+    <tag k="name:fi" v="Tikankatu" />
+  </way>
+  <way id="237396098" version="3" timestamp="2017-05-07T18:30:11Z">
+    <nd ref="2453037409" />
+    <nd ref="2453037411" />
+    <nd ref="2453037401" />
+    <nd ref="372554346" />
+    <tag k="highway" v="tertiary" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="Tikankatu" />
+    <tag k="name:fi" v="Tikankatu" />
+    <tag k="oneway" v="yes" />
+  </way>
+  <way id="237396099" version="1" timestamp="2013-09-10T15:51:34Z">
+    <nd ref="475347453" />
+    <nd ref="2453037395" />
+    <nd ref="2453037396" />
+    <nd ref="2453037397" />
+    <nd ref="2453037398" />
+    <nd ref="2453037394" />
+    <nd ref="2453037393" />
+    <nd ref="2453037400" />
+    <nd ref="2453037399" />
+    <tag k="ref" v="170" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="secondary" />
+  </way>
+  <way id="237396100" version="2" timestamp="2016-03-10T20:52:53Z">
+    <nd ref="2453037399" />
+    <nd ref="2453037414" />
+    <tag k="ref" v="170" />
+    <tag k="layer" v="1" />
+    <tag k="bridge" v="yes" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="secondary" />
+  </way>
+  <way id="237396101" version="3" timestamp="2017-05-07T18:30:11Z">
+    <nd ref="2453037410" />
+    <nd ref="2453037401" />
+    <nd ref="4840304341" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="1" />
+    <tag k="name" v="Tapiontie" />
+    <tag k="name:fi" v="Tapiontie" />
+    <tag k="oneway" v="yes" />
+    <tag k="ref" v="170" />
+  </way>
+  <way id="237396102" version="2" timestamp="2014-02-18T00:13:57Z">
+    <nd ref="2453037410" />
+    <nd ref="1808874680" />
+    <nd ref="2453037409" />
+    <tag k="name" v="Tikankatu" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="tertiary" />
+    <tag k="name:fi" v="Tikankatu" />
+  </way>
+  <way id="237396103" version="2" timestamp="2014-02-18T23:16:21Z">
+    <nd ref="2453037414" />
+    <nd ref="2453037408" />
+    <nd ref="2453037410" />
+    <tag k="ref" v="170" />
+    <tag k="name" v="Tapiontie" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="secondary" />
+    <tag k="name:fi" v="Tapiontie" />
+  </way>
+  <way id="237396104" version="1" timestamp="2013-09-10T15:51:35Z">
+    <nd ref="476002889" />
+    <nd ref="2453037415" />
+    <nd ref="2453037416" />
+    <nd ref="2453037417" />
+    <nd ref="2453037400" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="motorway_link" />
+  </way>
+  <way id="328196533" version="1" timestamp="2015-02-14T14:52:19Z">
+    <nd ref="3350088176" />
+    <nd ref="3350088177" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196534" version="1" timestamp="2015-02-14T14:52:19Z">
+    <nd ref="3350088178" />
+    <nd ref="3350088179" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196535" version="1" timestamp="2015-02-14T14:52:19Z">
+    <nd ref="3350088180" />
+    <nd ref="3350088181" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196536" version="1" timestamp="2015-02-14T14:52:19Z">
+    <nd ref="3350088182" />
+    <nd ref="3350088183" />
+    <nd ref="3350088184" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196537" version="1" timestamp="2015-02-14T14:52:19Z">
+    <nd ref="3350088185" />
+    <nd ref="3350088186" />
+    <nd ref="3350088187" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196538" version="1" timestamp="2015-02-14T14:52:19Z">
+    <nd ref="3350088188" />
+    <nd ref="3350088189" />
+    <nd ref="3350088190" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196539" version="1" timestamp="2015-02-14T14:52:19Z">
+    <nd ref="3350088191" />
+    <nd ref="3350088192" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196540" version="1" timestamp="2015-02-14T14:52:20Z">
+    <nd ref="876278256" />
+    <nd ref="3350088293" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196541" version="1" timestamp="2015-02-14T14:52:20Z">
+    <nd ref="3350088294" />
+    <nd ref="3350088295" />
+    <nd ref="3350088296" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196542" version="1" timestamp="2015-02-14T14:52:20Z">
+    <nd ref="3350088297" />
+    <nd ref="3350088298" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196543" version="1" timestamp="2015-02-14T14:52:20Z">
+    <nd ref="3350088299" />
+    <nd ref="3350088300" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196544" version="1" timestamp="2015-02-14T14:52:20Z">
+    <nd ref="3350088301" />
+    <nd ref="3350088302" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196545" version="1" timestamp="2015-02-14T14:52:20Z">
+    <nd ref="3350088303" />
+    <nd ref="3350088304" />
+    <nd ref="3350088305" />
+    <nd ref="3350088306" />
+    <nd ref="3350088307" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196546" version="1" timestamp="2015-02-14T14:52:20Z">
+    <nd ref="3350088308" />
+    <nd ref="3350088309" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196547" version="1" timestamp="2015-02-14T14:52:20Z">
+    <nd ref="3350088310" />
+    <nd ref="3350088311" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196548" version="1" timestamp="2015-02-14T14:52:20Z">
+    <nd ref="3350088312" />
+    <nd ref="3350088313" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196549" version="1" timestamp="2015-02-14T14:52:20Z">
+    <nd ref="876232689" />
+    <nd ref="3350088314" />
+    <nd ref="3350088315" />
+    <nd ref="3350088316" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196550" version="1" timestamp="2015-02-14T14:52:20Z">
+    <nd ref="3350088317" />
+    <nd ref="3350088318" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196551" version="1" timestamp="2015-02-14T14:52:20Z">
+    <nd ref="3350088319" />
+    <nd ref="3350088320" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196552" version="1" timestamp="2015-02-14T14:52:20Z">
+    <nd ref="3350088321" />
+    <nd ref="3350088322" />
+    <nd ref="3350088323" />
+    <nd ref="3350088324" />
+    <nd ref="3350088325" />
+    <nd ref="3350088326" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196554" version="2" timestamp="2016-04-25T16:25:55Z">
+    <nd ref="3350088354" />
+    <nd ref="4147108145" />
+    <nd ref="3350088355" />
+    <nd ref="3350088356" />
+    <nd ref="3350088357" />
+    <nd ref="3350088358" />
+    <nd ref="3350088359" />
+    <nd ref="3350088360" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196558" version="2" timestamp="2015-08-04T14:54:24Z">
+    <nd ref="3680698731" />
+    <nd ref="3350088493" />
+    <nd ref="3350088494" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="328196559" version="1" timestamp="2015-02-14T14:52:21Z">
+    <nd ref="3350088495" />
+    <nd ref="3350088496" />
+    <nd ref="3350088497" />
+    <nd ref="968567787" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="330553932" version="1" timestamp="2015-02-27T18:17:21Z">
+    <nd ref="3375193795" />
+    <nd ref="3375193796" />
+    <tag k="source" v="Bing" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="332041157" version="2" timestamp="2015-08-04T14:48:15Z">
+    <nd ref="475347460" />
+    <nd ref="475347461" />
+    <tag k="name" v="Hiidenkirnuntie" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="tertiary" />
+    <tag k="name:fi" v="Hiidenkirnuntie" />
+    <tag k="surface" v="paved" />
+  </way>
+  <way id="363960465" version="1" timestamp="2015-08-04T14:45:17Z">
+    <nd ref="960407286" />
+    <nd ref="476003115" />
+    <nd ref="3680684543" />
+    <tag k="name" v="Hiidenkirnuntie" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="tertiary" />
+    <tag k="name:fi" v="Hiidenkirnuntie" />
+    <tag k="surface" v="paved" />
+  </way>
+  <way id="363960474" version="1" timestamp="2015-08-04T14:45:17Z">
+    <nd ref="3680684543" />
+    <nd ref="3680684542" />
+    <tag k="name" v="Hiidenkirnuntie" />
+    <tag k="layer" v="1" />
+    <tag k="bridge" v="yes" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="tertiary" />
+    <tag k="name:fi" v="Hiidenkirnuntie" />
+    <tag k="surface" v="paved" />
+  </way>
+  <way id="363960477" version="1" timestamp="2015-08-04T14:45:17Z">
+    <nd ref="3680684547" />
+    <nd ref="3680684550" />
+    <nd ref="960407286" />
+    <tag k="name" v="Hiidenkirnuntie" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="tertiary" />
+    <tag k="name:fi" v="Hiidenkirnuntie" />
+    <tag k="surface" v="paved" />
+  </way>
+  <way id="363960524" version="1" timestamp="2015-08-04T14:46:22Z">
+    <nd ref="3680679871" />
+    <nd ref="3680684547" />
+    <tag k="name" v="Hiidenkirnuntie" />
+    <tag k="layer" v="1" />
+    <tag k="bridge" v="yes" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="tertiary" />
+    <tag k="name:fi" v="Hiidenkirnuntie" />
+    <tag k="surface" v="paved" />
+  </way>
+  <way id="363960525" version="2" timestamp="2015-08-04T14:48:15Z">
+    <nd ref="3680679873" />
+    <nd ref="3680679874" />
+    <nd ref="3680679875" />
+    <nd ref="3680679876" />
+    <nd ref="3680679877" />
+    <nd ref="3680689341" />
+    <nd ref="3680679872" />
+    <nd ref="3680679871" />
+    <tag k="name" v="Hiidenkirnuntie" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="tertiary" />
+    <tag k="name:fi" v="Hiidenkirnuntie" />
+    <tag k="surface" v="paved" />
+  </way>
+  <way id="363960734" version="2" timestamp="2015-08-04T14:50:08Z">
+    <nd ref="475347461" />
+    <nd ref="749392360" />
+    <nd ref="475347464" />
+    <nd ref="475347467" />
+    <nd ref="475347469" />
+    <nd ref="475347472" />
+    <nd ref="476002840" />
+    <tag k="name" v="Hiidenkirnuntie" />
+    <tag k="highway" v="tertiary" />
+    <tag k="name:fi" v="Hiidenkirnuntie" />
+    <tag k="surface" v="paved" />
+  </way>
+  <way id="363960736" version="1" timestamp="2015-08-04T14:48:12Z">
+    <nd ref="475347461" />
+    <nd ref="3680689351" />
+    <nd ref="3680689338" />
+    <nd ref="3680679873" />
+    <tag k="name" v="Hiidenkirnuntie" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="tertiary" />
+    <tag k="name:fi" v="Hiidenkirnuntie" />
+    <tag k="surface" v="paved" />
+  </way>
+  <way id="363961408" version="2" timestamp="2016-04-25T16:25:49Z">
+    <nd ref="476002840" />
+    <nd ref="475347483" />
+    <tag k="name" v="Hiidenkirnuntie" />
+    <tag k="highway" v="residential" />
+    <tag k="name:fi" v="Hiidenkirnuntie" />
+    <tag k="surface" v="paved" />
+  </way>
+  <way id="363962023" version="1" timestamp="2015-08-04T14:55:27Z">
+    <nd ref="3680691399" />
+    <nd ref="3680691402" />
+    <tag k="lanes" v="1" />
+    <tag k="layer" v="1" />
+    <tag k="bridge" v="yes" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="motorway_link" />
+    <tag k="surface" v="asphalt" />
+  </way>
+  <way id="363962025" version="1" timestamp="2015-08-04T14:55:30Z">
+    <nd ref="3680691402" />
+    <nd ref="477826228" />
+    <nd ref="372554181" />
+    <tag k="lanes" v="1" />
+    <tag k="oneway" v="yes" />
+    <tag k="highway" v="motorway_link" />
+  </way>
+  <way id="364417480" version="1" timestamp="2015-08-06T19:53:05Z">
+    <nd ref="3684592335" />
+    <nd ref="3684592341" />
+    <nd ref="3684592348" />
+    <tag k="name" v="Otsonpellontie" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="364417482" version="3" timestamp="2015-08-06T19:54:08Z">
+    <nd ref="3684592331" />
+    <nd ref="3684592333" />
+    <nd ref="3684592329" />
+    <nd ref="3684592332" />
+    <nd ref="3684592334" />
+    <nd ref="3684592340" />
+    <nd ref="3684592344" />
+    <nd ref="3684592326" />
+    <nd ref="3684588194" />
+    <nd ref="3684592337" />
+    <nd ref="3684592327" />
+    <nd ref="3684592325" />
+    <nd ref="3684592345" />
+    <nd ref="3684592330" />
+    <nd ref="3684592338" />
+    <nd ref="3684592343" />
+    <nd ref="3684592328" />
+    <nd ref="3684588193" />
+    <nd ref="3684593438" />
+    <nd ref="3684592349" />
+    <nd ref="3684592347" />
+    <nd ref="3684592336" />
+    <nd ref="3684592341" />
+    <tag k="name" v="Otsonkatu" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="364417519" version="1" timestamp="2015-08-06T19:53:57Z">
+    <nd ref="3684588194" />
+    <nd ref="3684588192" />
+    <nd ref="3684588197" />
+    <nd ref="3684588189" />
+    <nd ref="3684588195" />
+    <nd ref="3684588190" />
+    <nd ref="3684588196" />
+    <nd ref="3684588191" />
+    <nd ref="3684588193" />
+    <tag k="name" v="Otsonkaari" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="364417580" version="2" timestamp="2015-08-06T19:54:20Z">
+    <nd ref="3684593437" />
+    <nd ref="3684593438" />
+    <tag k="name" v="Otsonraitti" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="364417644" version="1" timestamp="2015-08-06T19:56:08Z">
+    <nd ref="3684592346" />
+    <nd ref="493621164" />
+    <nd ref="493621162" />
+    <nd ref="3680708683" />
+    <nd ref="3680708686" />
+    <nd ref="493621159" />
+    <nd ref="3680708687" />
+    <nd ref="3680708675" />
+    <nd ref="3680708685" />
+    <nd ref="3680708681" />
+    <nd ref="3680708682" />
+    <nd ref="3680708691" />
+    <nd ref="3680708684" />
+    <nd ref="3680708679" />
+    <nd ref="530181758" />
+    <nd ref="3680708690" />
+    <nd ref="3680708680" />
+    <nd ref="3680708677" />
+    <nd ref="3680708692" />
+    <nd ref="3680708688" />
+    <nd ref="3680708676" />
+    <nd ref="3680708678" />
+    <nd ref="3680708689" />
+    <nd ref="960407286" />
+    <tag k="name" v="Hiidenkirnuntie" />
+    <tag k="highway" v="tertiary" />
+    <tag k="name:fi" v="Hiidenkirnuntie" />
+    <tag k="surface" v="paved" />
+  </way>
+  <way id="369217777" version="1" timestamp="2015-09-05T07:29:18Z">
+    <nd ref="3730253789" />
+    <nd ref="3730253790" />
+    <nd ref="3730253791" />
+    <nd ref="3730253792" />
+    <nd ref="3730253793" />
+    <nd ref="3730253794" />
+    <nd ref="3730253795" />
+    <nd ref="3730253796" />
+    <nd ref="968567787" />
+    <tag k="highway" v="unclassified" />
+  </way>
+  <way id="413379413" version="1" timestamp="2016-04-25T16:25:26Z">
+    <nd ref="4147107304" />
+    <nd ref="4147107305" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="413379417" version="1" timestamp="2016-04-25T16:25:26Z">
+    <nd ref="4147107334" />
+    <nd ref="4147107335" />
+    <tag k="highway" v="residential" />
+  </way>
+  <way id="491948557" version="1" timestamp="2017-05-07T18:29:59Z">
+    <nd ref="2453037407" />
+    <nd ref="36156590" />
+    <nd ref="476824118" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="1" />
+    <tag k="name" v="Tapiontie" />
+    <tag k="name:fi" v="Tapiontie" />
+    <tag k="oneway" v="yes" />
+    <tag k="ref" v="170" />
+  </way>
+  <way id="491948559" version="1" timestamp="2017-05-07T18:29:59Z">
+    <nd ref="476824118" />
+    <nd ref="372554346" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="Tapiontie" />
+    <tag k="name:fi" v="Tapiontie" />
+    <tag k="oneway" v="yes" />
+    <tag k="ref" v="170" />
+  </way>
+  <way id="491948560" version="1" timestamp="2017-05-07T18:29:59Z">
+    <nd ref="4840304341" />
+    <nd ref="2453037402" />
+    <nd ref="2453037403" />
+    <tag k="highway" v="secondary" />
+    <tag k="lanes" v="2" />
+    <tag k="name" v="Tapiontie" />
+    <tag k="name:fi" v="Tapiontie" />
+    <tag k="oneway" v="yes" />
+    <tag k="ref" v="170" />
+  </way>
+  <way id="491948561" version="1" timestamp="2017-05-07T18:29:59Z">
+    <nd ref="876232652" />
+    <nd ref="4840304342" />
+    <nd ref="1364749544" />
+    <nd ref="4840304345" />
+    <nd ref="2453037388" />
+    <tag k="highway" v="motorway_link" />
+    <tag k="lanes" v="2" />
+    <tag k="oneway" v="yes" />
+    <tag k="source" v="kosmosnimki" />
+  </way>
+  <way id="491948562" version="2" timestamp="2019-01-23T19:15:56Z">
+    <nd ref="960378221" />
+    <nd ref="960407114" />
+    <nd ref="960407175" />
+    <nd ref="960407209" />
+    <nd ref="6230994074" />
+    <nd ref="493621164" />
+    <tag k="highway" v="tertiary" />
+    <tag k="name" v="Muuralankuja" />
+    <tag k="name:fi" v="Muuralankuja" />
+    <tag k="surface" v="paved" />
+  </way>
+  </osm>

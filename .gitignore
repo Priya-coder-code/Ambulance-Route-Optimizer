@@ -1,5 +1,7 @@
 __pycache__/
 *.pyc
 .pytest_cache/
-data/cache/
-results/
+.venv/
+backend/.env
+backend/data/
+frontend/node_modules/
